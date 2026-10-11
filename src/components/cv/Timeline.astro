@@ -32,8 +32,8 @@ const { items } = Astro.props;
             <ul>
               {item.bullets.map((bullet) => (
                 <li>
-                  <strong>{bullet.highlight}</strong>
-                  {bullet.rest}
+                  <strong class="cv-bullet-highlight">{bullet.highlight}</strong>
+                  <span class="cv-bullet-detail">{bullet.rest}</span>
                 </li>
               ))}
             </ul>

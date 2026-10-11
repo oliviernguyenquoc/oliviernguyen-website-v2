@@ -294,11 +294,6 @@ em {
   flex-direction: column;
   align-items: flex-start;
 }
-.number {
-  font-size: 12px;
-  color: var(--clay);
-  letter-spacing: 2px;
-}
 .perspective h3 {
   font-family: var(--serif);
   font-size: 38px;
@@ -491,6 +486,7 @@ em {
   padding-block: 62px 85px;
 }
 .contents {
+  display: block;
   font-size: 13px;
 }
 .contents strong {
@@ -505,7 +501,7 @@ em {
   border-bottom: 1px solid var(--line);
 }
 .article {
-  max-width: 880px;
+  max-width: 72ch;
   min-width: 0;
 }
 .article section {
@@ -1381,9 +1377,6 @@ em {
   padding-left: 0;
   margin-top: 26px;
 }
-.cv-sidebar .project .number {
-  display: none;
-}
 .cv-sidebar .project p {
   font-size: 14px;
 }
@@ -1682,15 +1675,64 @@ em {
   height: 24px;
   color: var(--green);
 }
+.cv-record-emoji {
+  font-size: 23px;
+  line-height: 1;
+}
 .cv-side-record p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.65;
   margin: 0 0 4px;
   color: var(--muted);
 }
 .cv-side-date {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--green);
+}
+.cv-icon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cv-icon-list li {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+  margin: 0 0 9px;
+}
+.cv-icon-list li:last-child {
+  margin-bottom: 0;
+}
+.cv-list-emoji {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+}
+.cv-languages {
+  font-size: 14px;
+}
+.cv-languages em {
+  color: var(--muted);
+  font-style: normal;
+}
+.cv-interests li {
+  margin-bottom: 13px;
+}
+.cv-interests strong,
+.cv-interests small {
+  display: block;
+}
+.cv-interests strong {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.cv-interests small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.48;
 }
 .cv-sidebar .compact-grid {
   display: block;
@@ -1701,14 +1743,14 @@ em {
 }
 .cv-sidebar .compact-grid ul {
   padding-left: 17px;
-  font-size: 12px;
+  font-size: 13px;
   margin: 9px 0 17px;
 }
 .cv-sidebar .compact-grid li {
   margin-bottom: 6px;
 }
 .cv-sidebar .text-link {
-  font-size: 11px;
+  font-size: 13px;
   gap: 5px;
 }
 .cv-sidebar .text-link .arrow {
@@ -1722,6 +1764,13 @@ em {
   font: 400 34px/1.25 var(--serif);
   margin: 0 0 26px;
   letter-spacing: -0.7px;
+}
+.cv-projects > h2::before {
+  content: "🚀";
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  font-size: 0.72em;
+  margin-right: 10px;
+  vertical-align: 0.08em;
 }
 .cv-project-grid {
   display: grid;
@@ -1772,7 +1821,7 @@ em {
   letter-spacing: -0.5px;
 }
 .cv-project-copy .meta {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -2006,8 +2055,15 @@ em {
   margin-bottom: 0;
 }
 .cv-event li strong {
-  font-weight: 500;
-  color: #35473d;
+  font-weight: 650;
+  color: var(--ink);
+}
+.cv-bullet-highlight {
+  letter-spacing: -0.08px;
+}
+.cv-bullet-detail {
+  color: #777e77;
+  font-size: 0.96em;
 }
 .cv-event li::marker {
   color: var(--muted);
@@ -2206,5 +2262,108 @@ em {
   .cv-code-project p {
     font-size: 14px;
     line-height: 1.57;
+  }
+}
+
+/* A softer, more editorial rhythm for the CV. */
+.page-parcours {
+  --ink: #253027;
+  --muted: #6b746c;
+  --line: #d5d9d2;
+}
+.cv-main .cv-section h2 {
+  color: #35483c;
+  font-weight: 600;
+}
+.cv-main strong {
+  font-weight: 500;
+}
+.cv-event h3 {
+  color: #2f3d33;
+  font-weight: 600;
+}
+.cv-event .cv-company {
+  color: #627066;
+  font-weight: 400;
+}
+.cv-event li strong {
+  color: #43544a;
+  font-weight: 600;
+}
+.cv-bullet-detail {
+  color: #7c857d;
+}
+.cv-sidebar h2 {
+  color: #526157;
+  font-weight: 500;
+}
+.cv-sidebar h3,
+.cv-interests strong {
+  color: #3b4a40;
+  font-weight: 500;
+}
+.cv-contact {
+  background: #e7eee4;
+  border-top: 2px solid #a8b9aa !important;
+  margin-top: 8px;
+  padding: 21px 20px 19px !important;
+}
+.cv-contact h2 {
+  color: #36513f;
+  margin-bottom: 10px;
+}
+.cv-contact-intro {
+  color: #55675a !important;
+  font-size: 13px !important;
+  line-height: 1.58 !important;
+  margin-bottom: 16px !important;
+}
+.cv-sidebar .cv-contact-email {
+  align-items: baseline;
+  border-bottom: 1px solid #6b8971;
+  color: #2f5b40;
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 500;
+  gap: 7px;
+  margin: 0;
+  padding-bottom: 3px;
+}
+.cv-contact-email span {
+  font-size: 15px;
+  transition: transform 0.2s ease;
+}
+.cv-contact-email:hover span {
+  transform: translate(2px, -2px);
+}
+.cv-contact-meta {
+  border-top: 1px solid #c6d2c5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  margin-top: 16px;
+  padding-top: 12px;
+}
+.cv-contact-meta,
+.cv-sidebar .cv-contact-meta a {
+  color: #667568;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.cv-sidebar .cv-contact-meta a {
+  display: inline;
+  margin: 0;
+}
+.cv-sidebar .cv-contact-meta a:hover,
+.cv-sidebar .cv-contact-email:hover {
+  color: #1f4831;
+}
+@media (max-width: 767px) {
+  .cv-contact {
+    margin-top: 10px;
+    padding: 22px 20px !important;
+  }
+  .cv-contact-intro {
+    font-size: 14px !important;
   }
 }

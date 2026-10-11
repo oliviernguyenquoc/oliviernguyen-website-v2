@@ -12,6 +12,28 @@ const fr = lang === "fr";
 const c = getContent(lang);
 // Project descriptions are shared with the existing bilingual content renderer.
 const projectHtml = projects(lang);
+const languages = fr
+  ? [
+      ["🇫🇷", "Français", "natif"],
+      ["🇬🇧", "Anglais", "courant"],
+    ]
+  : [
+      ["🇫🇷", "French", "native"],
+      ["🇬🇧", "English", "fluent"],
+    ];
+const interests = fr
+  ? [
+      ["🏛️", "Débat public", "Géopolitique, politique française & démocratie"],
+      ["🎭", "Théâtre", "Festival d’Avignon, spectateur régulier"],
+      ["🏃", "Course à pied", "Finisher 80 km, marathon 3 h 32"],
+      ["🧗", "Escalade", "Bloc & voie"],
+    ]
+  : [
+      ["🏛️", "Public debate", "Geopolitics, French politics & democracy"],
+      ["🎭", "Theatre", "Avignon Festival, regular attendee"],
+      ["🏃", "Running", "80 km finisher, 3 h 32 marathon"],
+      ["🧗", "Climbing", "Bouldering & lead"],
+    ];
 ---
 
 <header class="wrap cv-intro">
@@ -83,6 +105,7 @@ const projectHtml = projects(lang);
           c.engagement.items.map((item: any) => (
             <SideRecord
               logo={item.logo.startsWith("/") ? "dataforgood_logo.jpg" : undefined}
+              emoji={item.logo.startsWith("/") ? undefined : item.logo}
               alt={item.logoAlt}
               title={item.title}
             >
@@ -90,7 +113,7 @@ const projectHtml = projects(lang);
               {item.subtitle && <p>{item.subtitle}</p>}
               <p>{item.description}</p>
               {item.link && (
-                <TextLink href={item.link.url}>{item.link.text.replace("↗", "")}</TextLink>
+                <TextLink href={item.link.url}>📰 {item.link.text.replace("↗", "")}</TextLink>
               )}
             </SideRecord>
           ))
@@ -165,27 +188,59 @@ const projectHtml = projects(lang);
       </div>
     </section>
     <section>
-      <h2>{fr ? "Langues" : "Languages"}</h2><p>
-        {fr ? "Français — natif" : "French — native"}<br />{
-          fr ? "Anglais — courant" : "English — fluent"
+      <h2>{fr ? "Langues" : "Languages"}</h2>
+      <ul class="cv-icon-list cv-languages">
+        {
+          languages.map(([emoji, name, level]) => (
+            <li>
+              <span class="cv-list-emoji" aria-hidden="true">
+                {emoji}
+              </span>
+              <span>
+                {name} <em>— {level}</em>
+              </span>
+            </li>
+          ))
         }
-      </p>
+      </ul>
     </section>
     <section>
-      <h2>{fr ? "Centres d’intérêt" : "Interests"}</h2><p>
+      <h2>{fr ? "Centres d’intérêt" : "Interests"}</h2>
+      <ul class="cv-icon-list cv-interests">
+        {
+          interests.map(([emoji, label, detail]) => (
+            <li>
+              <span class="cv-list-emoji" aria-hidden="true">
+                {emoji}
+              </span>
+              <span>
+                <>
+                  <strong>{label}</strong>
+                  <small>{detail}</small>
+                </>
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+    <section class="cv-contact">
+      <h2>Contact</h2>
+      <p class="cv-contact-intro">
         {
           fr
-            ? "Débat public, géopolitique et démocratie. Théâtre, notamment au Festival d’Avignon. Course à pied et escalade (bloc et voie)."
-            : "Public debate, geopolitics and democracy. Theatre, especially at the Avignon Festival. Running and climbing (bouldering and lead)."
+            ? "Une idée, une question ou un projet à construire ? Échangeons."
+            : "An idea, a question or a project to build? Let’s talk."
         }
       </p>
-    </section>
-    <section>
-      <h2>Contact</h2><p>Paris, France</p><a href="mailto:olivier.nguyenquoc@gmail.com"
-        >olivier.nguyenquoc@gmail.com</a
-      ><a href="https://www.linkedin.com/in/oliviernguyenquoc">LinkedIn</a><a
-        href="https://github.com/oliviernguyenquoc">GitHub</a
+      <a class="cv-contact-email" href="mailto:olivier.nguyenquoc@gmail.com"
+        >olivier.nguyenquoc@gmail.com <span aria-hidden="true">↗</span></a
       >
+      <div class="cv-contact-meta">
+        <span>Paris, France</span>
+        <a href="https://www.linkedin.com/in/oliviernguyenquoc">LinkedIn ↗</a>
+        <a href="https://github.com/oliviernguyenquoc">GitHub ↗</a>
+      </div>
     </section>
   </aside>
 </div>
