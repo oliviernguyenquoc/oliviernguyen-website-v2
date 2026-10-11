@@ -1,0 +1,192 @@
+---
+import Timeline from "./Timeline.astro";
+import SideRecord from "./SideRecord.astro";
+import TextLink from "@/components/shared/TextLink.astro";
+import { getContent } from "@/lib/pages.js";
+import { projects } from "@/lib/projects.js";
+interface Props {
+  lang: "fr" | "en";
+}
+const { lang } = Astro.props;
+const fr = lang === "fr";
+const c = getContent(lang);
+// Project descriptions are shared with the existing bilingual content renderer.
+const projectHtml = projects(lang);
+---
+
+<header class="wrap cv-intro">
+  <div>
+    <h1>{fr ? "Mon parcours." : "My background."}</h1>
+    <p class="cv-role">Engineering Manager · Software, AI & Data</p>
+    <p class="cv-overview">
+      {
+        fr
+          ? "Je construis des produits et des plateformes data & IA, j’accompagne les équipes qui les font vivre et je m’intéresse à leurs effets sur les personnes et la société."
+          : "I build data & AI products and platforms, support the teams behind them and explore their effects on people and society."
+      }
+    </p>
+  </div>
+  <TextLink href="https://oliviernguyen.com/assets/CV.pdf"
+    >{fr ? "Télécharger le CV" : "Download resume"}</TextLink
+  >
+</header>
+<div class="wrap cv-layout">
+  <div class="cv-main min-w-0">
+    <section class="cv-section" id="biographie">
+      <h2>{c.bio.shortBio.title}</h2>
+      {
+        fr ? (
+          <>
+            <>
+              <p>
+                <strong>Leader technique</strong>, je travaille depuis{" "}
+                <strong>
+                  neuf ans à l’intersection de la data science, du machine learning et de la
+                  stratégie produit.
+                </strong>
+              </p>
+              <p>
+                J’ai construit et dirigé plusieurs équipes d’ingénierie, et conçu une{" "}
+                <strong>plateforme de deep learning pour la réutilisation d’actifs vidéo</strong>,
+                adoptée par 12 marques du groupe L’Oréal.
+              </p>
+            </>
+          </>
+        ) : (
+          <>
+            <>
+              <p>
+                <strong>Engineering leader</strong>, I have spent{" "}
+                <strong>
+                  nine years at the intersection of data science, machine learning and product
+                  strategy.
+                </strong>
+              </p>
+              <p>
+                I have built and led engineering teams and designed a{" "}
+                <strong>deep learning platform for video asset reuse</strong>, adopted by 12 brands
+                in the L’Oréal group.
+              </p>
+            </>
+          </>
+        )
+      }
+      <blockquote class="cv-quote">{c.bio.shortBio.quote.replace(/^"|"$/g, "")}</blockquote>
+    </section>
+    <section class="cv-section" id="experience">
+      <h2>{c.experience.title}</h2><Timeline items={c.experience.items} />
+    </section>
+    <section class="cv-section" id="engagement">
+      <h2>{c.engagement.title}</h2>
+      <div class="cv-engagement">
+        {
+          c.engagement.items.map((item: any) => (
+            <SideRecord
+              logo={item.logo.startsWith("/") ? "dataforgood_logo.jpg" : undefined}
+              alt={item.logoAlt}
+              title={item.title}
+            >
+              <span class="cv-side-date">{item.year}</span>
+              {item.subtitle && <p>{item.subtitle}</p>}
+              <p>{item.description}</p>
+              {item.link && (
+                <TextLink href={item.link.url}>{item.link.text.replace("↗", "")}</TextLink>
+              )}
+            </SideRecord>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+  <aside class="cv-sidebar min-w-0">
+    <section id="formation">
+      <h2>{c.education.title}</h2>
+      {
+        c.education.items.map((item: any, index: number) => (
+          <SideRecord
+            logo={index === 0 ? "essec-centrale.jpg" : "centrale_nantes.jpg"}
+            alt={item.logoAlt}
+            title={item.institution}
+          >
+            <>
+              <p>{item.degree}</p>
+              <span class="cv-side-date">{item.period}</span>
+            </>
+          </SideRecord>
+        ))
+      }
+    </section>
+    <section id="certifications">
+      <h2>{c.certifications.title}</h2>
+      {
+        c.certifications.items.map((item: any) => (
+          <SideRecord logo={item.logo.split("/").pop()} alt={item.logoAlt} title={item.name}>
+            <p>{item.organization}</p>
+            {item.date && <span class="cv-side-date">{item.date}</span>}
+          </SideRecord>
+        ))
+      }
+    </section>
+    <section id="competences">
+      <h2>{fr ? "Compétences & outils" : "Skills & tools"}</h2>
+      <div class="compact-grid">
+        <div>
+          <h3>Data & AI</h3><ul>
+            {
+              [
+                "Python · Machine learning · PyTorch",
+                "GCP · AWS · Databricks",
+                "Data engineering · Airflow · dbt",
+                "FastAPI · Vue · React",
+              ].map((item) => <li>{item}</li>)
+            }
+          </ul>
+        </div>
+        <div>
+          <h3>{fr ? "Équipes & produit" : "Teams & product"}</h3><ul>
+            {
+              (fr
+                ? [
+                    "Leadership technique & stratégie",
+                    "Recrutement & développement des talents",
+                    "Vision produit & livraison",
+                    "Qualité, observabilité & standards d’ingénierie",
+                  ]
+                : [
+                    "Engineering leadership & strategy",
+                    "Hiring & talent development",
+                    "Product vision & delivery",
+                    "Quality, observability & engineering standards",
+                  ]
+              ).map((item) => <li>{item}</li>)
+            }
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>{fr ? "Langues" : "Languages"}</h2><p>
+        {fr ? "Français — natif" : "French — native"}<br />{
+          fr ? "Anglais — courant" : "English — fluent"
+        }
+      </p>
+    </section>
+    <section>
+      <h2>{fr ? "Centres d’intérêt" : "Interests"}</h2><p>
+        {
+          fr
+            ? "Débat public, géopolitique et démocratie. Théâtre, notamment au Festival d’Avignon. Course à pied et escalade (bloc et voie)."
+            : "Public debate, geopolitics and democracy. Theatre, especially at the Avignon Festival. Running and climbing (bouldering and lead)."
+        }
+      </p>
+    </section>
+    <section>
+      <h2>Contact</h2><p>Paris, France</p><a href="mailto:olivier.nguyenquoc@gmail.com"
+        >olivier.nguyenquoc@gmail.com</a
+      ><a href="https://www.linkedin.com/in/oliviernguyenquoc">LinkedIn</a><a
+        href="https://github.com/oliviernguyenquoc">GitHub</a
+      >
+    </section>
+  </aside>
+</div>
+<Fragment set:html={projectHtml} />

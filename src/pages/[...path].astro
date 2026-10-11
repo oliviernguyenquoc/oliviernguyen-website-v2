@@ -1,0 +1,72 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Hero from "@/components/home/Hero.astro";
+import Profile from "@/components/cv/Profile.astro";
+import {
+  routes,
+  getContent,
+  words,
+  home,
+  research,
+  teaching,
+  course,
+  talk,
+  library,
+} from "@/lib/pages.js";
+
+export function getStaticPaths() {
+  return Object.entries(routes).flatMap(([lang, pages]) =>
+    Object.entries(pages).map(([page, path]) => ({
+      params: { path: path || undefined },
+      props: { lang, page },
+    })),
+  );
+}
+interface Props {
+  lang: "fr" | "en";
+  page: string;
+}
+const { lang, page } = Astro.props;
+const c = getContent(lang);
+const fr = lang === "fr";
+const meta: Record<string, [string, string]> = {
+  home: [
+    fr
+      ? "Construire des produits data & IA au service des personnes et de la société."
+      : "Building data & AI products in service of people and society.",
+    fr
+      ? "Data, IA et décision collective. Parcours, réflexions, cours et ressources d’Olivier Nguyen Quoc."
+      : "Data, AI and collective decision-making. Olivier Nguyen Quoc’s background, ideas, teaching and references.",
+  ],
+  parcours: [
+    words[lang].nav[0],
+    fr
+      ? "Parcours, expérience, engagements et projets d’Olivier Nguyen Quoc."
+      : "Olivier Nguyen Quoc’s background, work experience, public engagement and projects.",
+  ],
+  research: [c.research.meta.title.split(" - ")[0], c.research.meta.desc],
+  teaching: [words[lang].nav[2], c.course.meta.desc],
+  course: [c.course.header.title, c.course.meta.desc],
+  talk: [c.talk.title, c.talk.meta.desc],
+  references: [
+    words[lang].nav[3],
+    fr
+      ? "Bibliographie sur l’IA, la démocratie, les biais et l’intelligence collective."
+      : "Bibliography on AI, democracy, bias and collective intelligence.",
+  ],
+};
+const renderers: Record<string, (lang: string, content: any) => string> = {
+  home,
+  research,
+  teaching,
+  course,
+  talk,
+  references: library,
+};
+const [title, description] = meta[page];
+---
+
+<BaseLayout lang={lang} page={page} title={title} description={description}>
+  {page === "home" && <Hero lang={lang} />}
+  {page === "parcours" ? <Profile lang={lang} /> : <Fragment set:html={renderers[page](lang, c)} />}
+</BaseLayout>

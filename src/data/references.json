@@ -1,0 +1,694 @@
+[
+  {
+    "title": "From Dogwhistles to Bullhorns: Unveiling Coded Rhetoric with Language Models",
+    "url": "http://arxiv.org/abs/2305.17174",
+    "date": "2023",
+    "authors": "Julia Mendelsohn, Ronan Le Bras, Yejin Choi, Maarten Sap",
+    "tags": ["cat:persuasion"],
+    "abstract": "Warning: content in this paper may be upsetting or offensive to some readers."
+  },
+  {
+    "title": "Can LLMs advance democratic values?",
+    "url": "https://arxiv.org/abs/2410.08418",
+    "date": "2024",
+    "authors": "Seth Lazar, Lorenzo Manuali",
+    "tags": ["utiliséPresentation", "lu"],
+    "abstract": "LLMs are among the most advanced tools ever devised for understanding and generating natural language. Democratic deliberation and decision-making involve, at several distinct stages, the production and comprehension of language. So it is natural to ask whether our best linguistic tools might prove instrumental to one of our most important tasks involving language. Researchers and practitioners have recently asked whether LLMs can support democratic deliberation by leveraging abilities to summarise content, to aggregate opinion over summarised content, and to represent voters by predicting their preferences over unseen choices. In this paper, we assess whether using LLMs to perform these and related functions really advances the democratic values behind these experiments. We suggest that the record is mixed. In the presence of background inequality of power and resources, as well as deep moral and political disagreement, we should not use LLMs to automate non-instrumentally valuable components of the democratic process, nor be tempted to supplant fair and transparent decision-making procedures that are practically necessary to reconcile competing interests and values. However, while LLMs should be kept well clear of formal democratic decision-making processes, we think they can instead strengthen the informal public sphere--the arena that mediates between democratic governments and the polities that they serve, in which political communities seek information, form civic publics, and hold their leaders to account."
+  },
+  {
+    "title": "Can Large Language Models Transform Computational Social Science?",
+    "url": "https://direct.mit.edu/coli/article/50/1/237/118498/Can-Large-Language-Models-Transform-Computational",
+    "date": "2024-03-01",
+    "authors": "Caleb Ziems, William Held, Omar Shaikh, Jiaao Chen, Zhehao Zhang, Diyi Yang",
+    "tags": ["cat:polisci"],
+    "abstract": "Abstract\n            Large language models (LLMs) are capable of successfully performing many language processing tasks zero-shot (without training data). If zero-shot LLMs can also reliably classify and explain social phenomena like persuasiveness and political ideology, then LLMs could augment the computational social science (CSS) pipeline in important ways. This work provides a road map for using LLMs as CSS tools. Towards this end, we contribute a set of prompting best practices and an extensive evaluation pipeline to measure the zero-shot performance of 13 language models on 25 representative English CSS benchmarks. On taxonomic labeling tasks (classification), LLMs fail to outperform the best fine-tuned models but still achieve fair levels of agreement with humans. On free-form coding tasks (generation), LLMs produce explanations that often exceed the quality of crowdworkers’ gold references. We conclude that the performance of today’s LLMs can augment the CSS research pipeline in two ways: (1) serving as zero-shot data annotators on human annotation teams, and (2) bootstrapping challenging creative generation tasks (e.g., explaining the underlying attributes of a text). In summary, LLMs are posed to meaningfully participate in social science analysis in partnership with humans."
+  },
+  {
+    "title": "Political-LLM: Large Language Models in Political Science",
+    "url": "https://arxiv.org/abs/2412.06864",
+    "date": "2024",
+    "authors": "Lincan Li, Jiaqi Li, Catherine Chen, Fred Gui, Hongjia Yang, Chenxiao Yu, Zhengguang Wang, Jianing Cai, Junlong Aaron Zhou, Bolin Shen, Alex Qian, Weixin Chen, Zhongkai Xue, Lichao Sun, Lifang He, Hanjie Chen, Kaize Ding, Zijian Du, Fangzhou Mu, Jiaxin Pei, Jieyu Zhao, Swabha Swayamdipta, Willie Neiswanger, Hua Wei, Xiyang Hu, Shixiang Zhu, Tianlong Chen, Yingzhou Lu, Yang Shi, Lianhui Qin, Tianfan Fu, Zhengzhong Tu, Yuzhe Yang, Jaemin Yoo, Jiaheng Zhang, Ryan Rossi, Liang Zhan, Liang Zhao, Emilio Ferrara, Yan Liu, Furong Huang, Xiangliang Zhang, Lawrence Rothenberg, Shuiwang Ji, Philip S. Yu, Yue Zhao, Yushun Dong",
+    "tags": ["lu", "cat:polisci"],
+    "abstract": "In recent years, large language models (LLMs) have been widely adopted in political science tasks such as election prediction, sentiment analysis, policy impact assessment, and misinformation detection. Meanwhile, the need to systematically understand how LLMs can further revolutionize the field also becomes urgent. In this work, we--a multidisciplinary team of researchers spanning computer science and political science--present the first principled framework termed Political-LLM to advance the comprehensive understanding of integrating LLMs into computational political science. Specifically, we first introduce a fundamental taxonomy classifying the existing explorations into two perspectives: political science and computational methodologies. In particular, from the political science perspective, we highlight the role of LLMs in automating predictive and generative tasks, simulating behavior dynamics, and improving causal inference through tools like counterfactual generation; from a computational perspective, we introduce advancements in data preparation, fine-tuning, and evaluation methods for LLMs that are tailored to political contexts. We identify key challenges and future directions, emphasizing the development of domain-specific datasets, addressing issues of bias and fairness, incorporating human expertise, and redefining evaluation criteria to align with the unique requirements of computational political science. Political-LLM seeks to serve as a guidebook for researchers to foster an informed, ethical, and impactful use of Artificial Intelligence in political science. Our online resource is available at: http://political-llm.org/."
+  },
+  {
+    "title": "L(u)PIN: LLM-based Political Ideology Nowcasting",
+    "url": "https://arxiv.org/abs/2405.07320",
+    "date": "2024",
+    "authors": "Ken Kato, Annabelle Purnomo, Christopher Cochrane, Raeid Saqur",
+    "tags": ["cat:analysis"],
+    "abstract": "The quantitative analysis of political ideological positions is a difficult task. In the past, various literature focused on parliamentary voting data of politicians, party manifestos and parliamentary speech to estimate political disagreement and polarization in various political systems. However previous methods of quantitative political analysis suffered from a common challenge which was the amount of data available for analysis. Also previous methods frequently focused on a more general analysis of politics such as overall polarization of the parliament or party-wide political ideological positions. In this paper, we present a method to analyze ideological positions of individual parliamentary representatives by leveraging the latent knowledge of LLMs. The method allows us to evaluate the stance of politicians on an axis of our choice allowing us to flexibly measure the stance of politicians in regards to a topic/controversy of our choice. We achieve this by using a fine-tuned BERT classifier to extract the opinion-based sentences from the speeches of representatives and projecting the average BERT embeddings for each representative on a pair of reference seeds. These reference seeds are either manually chosen representatives known to have opposing views on a particular topic or they are generated sentences which where created using the GPT-4 model of OpenAI. We created the sentences by prompting the GPT-4 model to generate a speech that would come from a politician defending a particular position."
+  },
+  {
+    "title": "How Susceptible are Large Language Models to Ideological Manipulation?",
+    "url": "https://arxiv.org/abs/2402.11725",
+    "date": "2024",
+    "authors": "Kai Chen, Zihao He, Jun Yan, Taiwei Shi, Kristina Lerman",
+    "tags": ["cat:bias"],
+    "abstract": "Large Language Models (LLMs) possess the potential to exert substantial influence on public perceptions and interactions with information. This raises concerns about the societal impact that could arise if the ideologies within these models can be easily manipulated. In this work, we investigate how effectively LLMs can learn and generalize ideological biases from their instruction-tuning data. Our findings reveal a concerning vulnerability: exposure to only a small amount of ideologically driven samples significantly alters the ideology of LLMs. Notably, LLMs demonstrate a startling ability to absorb ideology from one topic and generalize it to even unrelated ones. The ease with which LLMs' ideologies can be skewed underscores the risks associated with intentionally poisoned training data by malicious actors or inadvertently introduced biases by data annotators. It also emphasizes the imperative for robust safeguards to mitigate the influence of ideological manipulations on LLMs."
+  },
+  {
+    "title": "Whose Opinions Do Language Models Reflect?",
+    "url": "https://www.semanticscholar.org/paper/Whose-Opinions-Do-Language-Models-Reflect-Santurkar-Durmus/e38a29f6463f38f43797b128673b9e44d18a991e",
+    "date": "30 March 2023",
+    "authors": "Shibani Santurkar, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, Tatsunori Hashimoto",
+    "tags": ["cat:bias", "utiliséPresentation"],
+    "abstract": "Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reflected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as well as shaping the views of society at large. In this work, we put forth a quantitative framework to investigate the opinions reflected by LMs -- by leveraging high-quality public opinion polls and their associated human responses. Using this framework, we create OpinionsQA, a new dataset for evaluating the alignment of LM opinions with those of 60 US demographic groups over topics ranging from abortion to automation. Across topics, we find substantial misalignment between the views reflected by current LMs and those of US demographic groups: on par with the Democrat-Republican divide on climate change. Notably, this misalignment persists even after explicitly steering the LMs towards particular demographic groups. Our analysis not only confirms prior observations about the left-leaning tendencies of some human feedback-tuned LMs, but also surfaces groups whose opinions are poorly reflected by current LMs (e.g., 65+ and widowed individuals). Our code and data are available at https://github.com/tatsu-lab/opinions_qa."
+  },
+  {
+    "title": "Hidden Persuaders: LLMs’ Political Leaning and Their Influence on Voters",
+    "url": "https://aclanthology.org/2024.emnlp-main.244",
+    "date": "2024",
+    "authors": "Yujin Potter, Shiyang Lai, Junsol Kim, James Evans, Dawn Song",
+    "tags": ["cat:bias"],
+    "abstract": "Do LLMs have political leanings and are LLMs able to shift our political views? This paper explores these questions in the context of the 2024 U.S. presidential election. Through a voting simulation, we demonstrate 18 open-weight and closed-source LLMs’ political preference for Biden over Trump. We show how Biden-leaning becomes more pronounced in instruction-tuned and reinforced models compared to their base versions by analyzing their responses to political questions related to the two nominees. We further explore the potential impact of LLMs on voter choice by recruiting 935 U.S. registered voters. Participants interacted with LLMs (Claude-3, Llama-3, and GPT-4) over five exchanges. Intriguingly, although LLMs were not asked to persuade users to support Biden, about 20% of Trump supporters reduced their support for Trump after LLM interaction. This result is noteworthy given that many studies on the persuasiveness of political campaigns have shown minimal effects in presidential elections. Many users also expressed a desire for further interaction with LLMs on political subjects. Further research on how LLMs affect users’ political views is required, as their use becomes more widespread."
+  },
+  {
+    "title": "The Persuasive Power of Large Language Models",
+    "url": "https://arxiv.org/abs/2312.15523",
+    "date": "2023",
+    "authors": "Simon Martin Breum, Daniel Vædele Egdal, Victor Gram Mortensen, Anders Giovanni Møller, Luca Maria Aiello",
+    "tags": ["cat:persuasion"],
+    "abstract": "The increasing capability of Large Language Models to act as human-like social agents raises two important questions in the area of opinion dynamics. First, whether these agents can generate effective arguments that could be injected into the online discourse to steer the public opinion. Second, whether artificial agents can interact with each other to reproduce dynamics of persuasion typical of human social systems, opening up opportunities for studying synthetic social systems as faithful proxies for opinion dynamics in human populations. To address these questions, we designed a synthetic persuasion dialogue scenario on the topic of climate change, where a 'convincer' agent generates a persuasive argument for a 'skeptic' agent, who subsequently assesses whether the argument changed its internal opinion state. Different types of arguments were generated to incorporate different linguistic dimensions underpinning psycho-linguistic theories of opinion change. We then asked human judges to evaluate the persuasiveness of machine-generated arguments. Arguments that included factual knowledge, markers of trust, expressions of support, and conveyed status were deemed most effective according to both humans and agents, with humans reporting a marked preference for knowledge-based arguments. Our experimental framework lays the groundwork for future in-silico studies of opinion dynamics, and our findings suggest that artificial agents have the potential of playing an important role in collective processes of opinion formation in online social media."
+  },
+  {
+    "title": "Opportunities and Risks of LLMs for Scalable Deliberation with Polis",
+    "url": "https://arxiv.org/abs/2306.11932",
+    "date": "2023",
+    "authors": "Christopher T. Small, Ivan Vendrov, Esin Durmus, Hadjar Homaei, Elizabeth Barry, Julien Cornebise, Ted Suzman, Deep Ganguli, Colin Megill",
+    "tags": ["utiliséPresentation", "lu"],
+    "abstract": "Polis is a platform that leverages machine intelligence to scale up deliberative processes. In this paper, we explore the opportunities and risks associated with applying Large Language Models (LLMs) towards challenges with facilitating, moderating and summarizing the results of Polis engagements. In particular, we demonstrate with pilot experiments using Anthropic's Claude that LLMs can indeed augment human intelligence to help more efficiently run Polis conversations. In particular, we find that summarization capabilities enable categorically new methods with immense promise to empower the public in collective meaning-making exercises. And notably, LLM context limitations have a significant impact on insight and quality of these results. However, these opportunities come with risks. We discuss some of these risks, as well as principles and techniques for characterizing and mitigating them, and the implications for other deliberative or political systems that may employ LLMs. Finally, we conclude with several open future research directions for augmenting tools like Polis with LLMs."
+  },
+  {
+    "title": "LLM-Based Bot Broadens the Range of Arguments in Online Discussions, Even When Transparently Disclosed as AI",
+    "url": "https://arxiv.org/abs/2506.17073",
+    "date": "2025",
+    "authors": "Valeria Vuk, Cristina Sarasua, Fabrizio Gilardi",
+    "tags": ["lu"],
+    "abstract": "A wide range of participation is essential for democracy, as it helps prevent the dominance of extreme views, erosion of legitimacy, and political polarization. However, engagement in online political discussions often features a limited spectrum of views due to high levels of self-selection and the tendency of online platforms to facilitate exchanges primarily among like-minded individuals. This study examines whether an LLM-based bot can widen the scope of perspectives expressed by participants in online discussions through two pre-registered randomized experiments conducted in a chatroom. We evaluate the impact of a bot that actively monitors discussions, identifies missing arguments, and introduces them into the conversation. The results indicate that our bot significantly expands the range of arguments, as measured by both objective and subjective metrics. Furthermore, disclosure of the bot as AI does not significantly alter these effects. These findings suggest that LLM-based moderation tools can positively influence online political discourse."
+  },
+  {
+    "title": "Can LLMs Ground when they (Don't) Know: A Study on Direct and Loaded Political Questions",
+    "url": "https://arxiv.org/abs/2506.08952",
+    "date": "2025",
+    "authors": "Clara Lachenmaier, Judith Sieker, Sina Zarrieß",
+    "tags": ["cat:polisci"],
+    "abstract": "Communication among humans relies on conversational grounding, allowing interlocutors to reach mutual understanding even when they do not have perfect knowledge and must resolve discrepancies in each other's beliefs. This paper investigates how large language models (LLMs) manage common ground in cases where they (don't) possess knowledge, focusing on facts in the political domain where the risk of misinformation and grounding failure is high. We examine the ability of LLMs to answer direct knowledge questions and loaded questions that presuppose misinformation. We evaluate whether loaded questions lead LLMs to engage in active grounding and correct false user beliefs, in connection to their level of knowledge and their political bias. Our findings highlight significant challenges in LLMs' ability to engage in grounding and reject false user beliefs, raising concerns about their role in mitigating misinformation in political discourse."
+  },
+  {
+    "title": "An Empirical Analysis of LLMs for Countering Misinformation",
+    "url": "https://arxiv.org/abs/2503.01902",
+    "date": "2025",
+    "authors": "Adiba Mahbub Proma, Neeley Pate, James Druckman, Gourab Ghoshal, Hangfeng He, Ehsan Hoque",
+    "tags": ["cat:analysis"],
+    "abstract": "While Large Language Models (LLMs) can amplify online misinformation, they also show promise in tackling misinformation. In this paper, we empirically study the capabilities of three LLMs -- ChatGPT, Gemini, and Claude -- in countering political misinformation. We implement a two-step, chain-of-thought prompting approach, where models first identify credible sources for a given claim and then generate persuasive responses. Our findings suggest that models struggle to ground their responses in real news sources, and tend to prefer citing left-leaning sources. We also observe varying degrees of response diversity among models. Our findings highlight concerns about using LLMs for fact-checking through only prompt-engineering, emphasizing the need for more robust guardrails. Our results have implications for both researchers and non-technical users."
+  },
+  {
+    "title": "Semantic Verification in Large Language Model-based Retrieval Augmented Generation",
+    "url": "https://ojs.aaai.org/index.php/AAAI-SS/article/view/31199",
+    "date": "2024-05-20",
+    "authors": "Andreas Martin, Hans Friedrich Witschel, Maximilian Mandl, Mona Stockhecke",
+    "tags": ["cat:analysis"],
+    "abstract": "This position paper presents a novel approach of semantic verification in Large Language Model-based Retrieval Augmented Generation (LLM-RAG) systems, focusing on the critical need for factually accurate information dissemination during public debates, especially prior to plebiscites e.g. in direct democracies, particularly in the context of Switzerland. Recognizing the unique challenges posed by the current generation of Large Language Models (LLMs) in maintaining factual integrity, this research proposes an innovative solution that integrates retrieval mechanisms with enhanced semantic verification processes. The paper outlines a comprehensive methodology following a Design Science Research approach, which includes defining user personas, designing conversational interfaces, and iteratively developing a hybrid dialogue system. Central to this system is a robust semantic verification framework that leverages a knowledge graph for fact-checking and validation, ensuring the correctness and consistency of information generated by LLMs. The paper discusses the significance of this research in the context of Swiss direct democracy, where informed decision-making is pivotal. By improving the accuracy and reliability of information provided to the public, the proposed system aims to support the democratic process, enabling citizens to make well-informed decisions on complex issues. The research contributes to advancing the field of natural language processing and information retrieval, demonstrating the potential of AI and LLMs in enhancing civic engagement and democratic participation."
+  },
+  {
+    "title": "Generative AI and Public Deliberation: A Framework for LLM-augmented Digital Democracy",
+    "url": "https://www.semanticscholar.org/paper/Generative-AI-and-Public-Deliberation%3A-A-Framework-Karacapilidis-Kalampokis/36222a2691bb5e3eb676a0deceb67b879c7b5d03",
+    "date": "2024",
+    "authors": "Nikos I. Karacapilidis, E. Kalampokis, Nikolaos Giarelis, Charalampos Mastrokostas",
+    "tags": ["cat:democracy"],
+    "abstract": "Aiming to augment the effectiveness and scalability of existing digital deliberation platforms, while also facilitating evidence-based collective decision making and increasing citizen participation and trust, this article (i) reviews state-of-the-art applications of LLMs in diverse public deliberation issues; (ii) proposes a novel digital deliberation framework that meaningfully incorporates Knowledge Graphs and neuro-symbolic reasoning approaches to improve the factual accuracy and reasoning capabilities of LLMs, and (iii) demonstrates the potential of the proposed solution through two key deliberation tasks, namely fact checking and argument building. The article provides insights about how modern AI technology should be used to address the equity perspective, helping citizens to construct robust and informed arguments, refine their prose, and contribute comprehensible feedback; and aiding policy makers in obtaining a deep understanding of the evolution and outcome of a deliberation."
+  },
+  {
+    "title": "Now I know! Empowering Voters with RAG-enabled LLMs to Eliminate Political Uncertainty",
+    "url": "https://dl.acm.org/doi/10.1145/3688671.3688784",
+    "date": "2024-09-11",
+    "authors": "Stavros Vassos, Stratos Goudelis, Dimi Balaouras, Giannis Vitalis, Vasilis Nakos, Glykeria Pigka, Loukia Tsagkli, Menia Hatzikou, Zachos Tsionas, Alexandros Chasanis, Stan Van De Burgt, Mark Pors, Stratos Papadoudis, Lefteris Loukas",
+    "tags": ["cat:democracy"],
+    "abstract": "Accurate political information is vital for voters to make informed decisions. However, due to the plethora of data and biased sources, accessing concise, factual information still remains a challenge. To tackle this problem, we present an open-access, deployed digital assistant powered by Large Language Models (LLMs), specifically tailored to answer voters’ questions and help them vote for the political party they mostly align with. The user can select up to 3 parties, input their question, and get short, summarized answers from the parties’ published political agendas, which contain hundreds of pages and, thus, are difficult to navigate for the typical citizen. Our NLP system architecture leverages OpenAI’s GPT-4 and incorporates Retrieval-Augmented Generation with Citations (RAG+C) to integrate custom data into LLMs effectively and build user trust. We also describe our database design, underlining the use of an open-source vector database, optimized for high-dimensional semantic search across multiple documents, and a semantic-rich LLM cache, reducing operational expenses and end-user latency time. Our open-access system supports Greek and English and has been deployed live at https://toraksero.gr/for the Greek 2023 Elections, which gathered 30K user sessions and 74% user satisfaction."
+  },
+  {
+    "title": "Generative AI in the Era of 'Alternative Facts'",
+    "url": "https://mit-genai.pubpub.org/pub/cnks7gwl",
+    "date": "2024-03-27",
+    "authors": "Saadia Gabriel, Liang Lyu, James Siderius, Marzyeh Ghassemi, Jacob Andreas, Asu Ozdaglar",
+    "tags": ["cat:polisci"],
+    "abstract": "The spread of misinformation on social media platforms threatens democratic processes, contributes to massive economic losses, and endangers public health. Many efforts to address misinformation focus on a knowledge deficit model and propose interventions for improving users’ critical thinking through improved access to facts. Such efforts are often hampered by challenges with scalability on the part of platform providers, and by confirmation bias on the part of platform users. The emergence of generative AI presents promising opportunities for countering misinformation at scale across ideological barriers. In this paper, we present (1) an experiment with a simulated social media environment to examine the effectiveness of interventions generated by large language models (LLMs) against misinformation, (2) a second experiment with personalized explanations tailored to the demographics and beliefs of users with the goal of alleviating confirmation bias, and (3) an analysis of potential harms posed by personalized generative AI when exploited for automated creation of disinformation. Our findings confirm that LLM-based interventions are highly effective at correcting user behavior (improving overall user accuracy at reliability labeling by up to 47.6%). Furthermore, we find that users favor more personalized interventions when making decisions about news reliability."
+  },
+  {
+    "title": "Towards Deliberating Agents: Evaluating the Ability of Large Language Models to Deliberate",
+    "url": "https://www.semanticscholar.org/paper/Towards-Deliberating-Agents%3A-Evaluating-the-Ability/cefae22f36f8b42fd02eb9d6c8fd1728fd5c6003",
+    "authors": "",
+    "tags": ["cat:democracy"],
+    "abstract": "As artificial intelligence increasingly permeates our decision-making processes, 1 a crucial question emerges: can large language models (LLMs) truly engage in 2 the nuanced, collaborative process of deliberation that underpins democracy? We 3 present the LLM-Deliberation Quality Index , a novel framework for evaluat-4 ing the deliberative capabilities of large language models (LLMs). Our approach 5 combines aspects of the Deliberation Quality Index from political science liter-6 ature with LLM-specific measures to assess both the quality of deliberation and 7 the believability of AI agents in simulated policy discussions. Additionally, we 8 introduce a controlled simulation environment featuring complex public policy 9 scenarios and conduct experiments using various LLMs as deliberative agents. Our 10 findings reveal both promising capabilities and notable limitations in current LLMs’ 11 deliberative abilities. While models like GPT-4o demonstrate high performance in 12 providing justified reasoning (9.41 / 10), they struggle with more social aspects of 13 deliberation such as storytelling (2.43 / 10) and active questioning (3.41 / 10). This 14 contrasts sharply with typical human performance in deliberations, who typically 15 perform well in storytelling but struggle with justified reasoning. We also observe 16 a strong correlation between an LLM’s ability to respect others’ arguments and its 17 propensity for opinion change, indicating a potential limitation in LLMs’ capacity 18 to acknowledge valid counterarguments without altering their core stance, rais-19 ing important questions about LLMs’ current capability for nuanced deliberation. 20 Overall, our work offers a comprehensive framework for evaluating and probing 21 the deliberative abilities of LLM agents across various policy domains, showing 22 not only the current state of LLM deliberation capabilities but also providing a 23 foundation for developing more deliberative AI. 24"
+  },
+  {
+    "title": "The Oxford handbook of deliberative democracy",
+    "url": "",
+    "date": "2018",
+    "authors": "",
+    "tags": ["cat:democracy"],
+    "abstract": "Deliberative democracy has been one of the main games in contemporary political theory for two decades, growing enormously in size and importance in political science and many other disciplines. This handbook takes stock of deliberative democracy as a research field, in philosophy, in various research programmes in the social sciences and law, and in political practice around the globe. It provides a concise history of deliberative ideals in political thought and discusses their philosophical origins. The book locates deliberation in political systems with different spaces, publics, and venues, including parliaments, courts, governance networks, protests, mini-publics, old and new media, and everyday talk. It engages with practical applications, mapping deliberation as a reform movement and as a device for conflict resolution, documenting the practice and study of deliberative democracy around the world and in global governance"
+  },
+  {
+    "title": "Leveraging AI for democratic discourse: Chat interventions can improve online political conversations at scale",
+    "url": "https://pnas.org/doi/10.1073/pnas.2311627120",
+    "date": "2023-10-10",
+    "authors": "Lisa P. Argyle, Christopher A. Bail, Ethan C. Busby, Joshua R. Gubler, Thomas Howe, Christopher Rytting, Taylor Sorensen, David Wingate",
+    "tags": ["cat:democracy", "lu", "utiliséPresentation"],
+    "abstract": "Political discourse is the soul of democracy, but misunderstanding and conflict can fester in divisive conversations. The widespread shift to online discourse exacerbates many of these problems and corrodes the capacity of diverse societies to cooperate in solving social problems. Scholars and civil society groups promote interventions that make conversations less divisive or more productive, but scaling these efforts to online discourse is challenging. We conduct a large-scale experiment that demonstrates how online conversations about divisive topics can be improved with AI tools. Specifically, we employ a large language model to make real-time, evidence-based recommendations intended to improve participants’ perception of feeling understood. These interventions improve reported conversation quality, promote democratic reciprocity, and improve the tone, without systematically changing the content of the conversation or moving people’s policy attitudes."
+  },
+  {
+    "title": "More Human than Human: Measuring ChatGPT Political Bias",
+    "url": "https://www.ssrn.com/abstract=4372349",
+    "date": "2023",
+    "authors": "Fabio Yoshio Suguri Motoki, Valdemar Pinho Neto, Victor Rodrigues",
+    "tags": ["cat:bias"],
+    "abstract": "We investigate the political bias of a large language model (LLM), ChatGPT, which has become popular for retrieving factual information and generating content. Although ChatGPT assures that it is impartial, the literature suggests that LLMs exhibit bias involving race, gender, religion, and political orientation. Political bias in LLMs can have adverse political and electoral consequences similar to bias from traditional and social media. Moreover, political bias can be harder to detect and eradicate than gender or racial bias. We propose a novel empirical design to infer whether ChatGPT has political biases by requesting it to impersonate someone from a given side of the political spectrum and comparing these answers with its default. We also propose dose-response, placebo, and profession-politics alignment robustness tests. To reduce concerns about the randomness of the generated text, we collect answers to the same questions 100 times, with question order randomized on each round. We find robust evidence that ChatGPT presents a significant and systematic political bias toward the Democrats in the US, Lula in Brazil, and the Labour Party in the UK. These results translate into real concerns that ChatGPT, and LLMs in general, can extend or even amplify the existing challenges involving political processes posed by the Internet and social media. Our findings have important implications for policymakers, media, politics, and academia stakeholders."
+  },
+  {
+    "title": "LLMs, Truth, and Democracy: An Overview of Risks",
+    "url": "https://link.springer.com/10.1007/s11948-025-00529-0",
+    "date": "2025-01-23",
+    "authors": "Mark Coeckelbergh",
+    "tags": ["cat:democracy"],
+    "abstract": "Abstract          While there are many public concerns about the impact of AI on truth and knowledge, especially when it comes to the widespread use of LLMs, there is not much systematic philosophical analysis of these problems and their political implications. This paper aims to assist this effort by providing an overview of some truth-related risks in which LLMs may play a role, including risks concerning hallucination and misinformation, epistemic agency and epistemic bubbles, bullshit and relativism, and epistemic anachronism and epistemic incest, and by offering arguments for why these problems are not only epistemic issues but also raise problems for democracy since they undermine its epistemic basis– especially if we assume democracy theories that go beyond minimalist views. I end with a short reflection on what can be done about these political-epistemic risks, pointing to education as one of the sites for change."
+  },
+  {
+    "title": "Beyond Prompt Brittleness: Evaluating the Reliability and Consistency of Political Worldviews in LLMs",
+    "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00710/125176/Beyond-Prompt-Brittleness-Evaluating-the",
+    "date": "2024-11-04",
+    "authors": "Tanise Ceron, Neele Falk, Ana Barić, Dmitry Nikolaev, Sebastian Padó",
+    "tags": ["cat:bias"],
+    "abstract": "Abstract               Due to the widespread use of large language models (LLMs), we need to understand whether they embed a specific “worldview” and what these views reflect. Recent studies report that, prompted with political questionnaires, LLMs show left-liberal leanings (Feng et al., 2023; Motoki et al., 2024). However, it is as yet unclear whether these leanings are reliable (robust to prompt variations) and whether the leaning is consistent across policies and political leaning. We propose a series of tests which assess the reliability and consistency of LLMs’ stances on political statements based on a dataset of voting-advice questionnaires collected from seven EU countries and annotated for policy issues. We study LLMs ranging in size from 7B to 70B parameters and find that their reliability increases with parameter count. Larger models show overall stronger alignment with left-leaning parties but differ among policy programs: They show a (left-wing) positive stance towards environment protection, social welfare state, and liberal society but also (right-wing) law and order, with no consistent preferences in the areas of foreign policy and migration."
+  },
+  {
+    "title": "LLMs Among Us: Generative AI Participating in Digital Discourse",
+    "url": "https://arxiv.org/abs/2402.07940",
+    "date": "2024",
+    "authors": "Kristina Radivojevic, Nicholas Clark, Paul Brenner",
+    "tags": ["cat:polisci"],
+    "abstract": "The emergence of Large Language Models (LLMs) has great potential to reshape the landscape of many social media platforms. While this can bring promising opportunities, it also raises many threats, such as biases and privacy concerns, and may contribute to the spread of propaganda by malicious actors. We developed the \"LLMs Among Us\" experimental framework on top of the Mastodon social media platform for bot and human participants to communicate without knowing the ratio or nature of bot and human participants. We built 10 personas with three different LLMs, GPT-4, LLama 2 Chat, and Claude. We conducted three rounds of the experiment and surveyed participants after each round to measure the ability of LLMs to pose as human participants without human detection. We found that participants correctly identified the nature of other users in the experiment only 42% of the time despite knowing the presence of both bots and humans. We also found that the choice of persona had substantially more impact on human perception than the choice of mainstream LLMs."
+  },
+  {
+    "title": "Large Language Models in Politics and Democracy: A Comprehensive Survey",
+    "url": "https://arxiv.org/abs/2412.04498",
+    "date": "2024",
+    "authors": "Goshi Aoki",
+    "tags": ["écouté", "cat:democracy"],
+    "abstract": "The advancement of generative AI, particularly large language models (LLMs), has a significant impact on politics and democracy, offering potential across various domains, including policymaking, political communication, analysis, and governance. This paper surveys the recent and potential applications of LLMs in politics, examining both their promises and the associated challenges. This paper examines the ways in which LLMs are being employed in legislative processes, political communication, and political analysis. Moreover, we investigate the potential of LLMs in diplomatic and national security contexts, economic and social modeling, and legal applications. While LLMs offer opportunities to enhance efficiency, inclusivity, and decision-making in political processes, they also present challenges related to bias, transparency, and accountability. The paper underscores the necessity for responsible development, ethical considerations, and governance frameworks to ensure that the integration of LLMs into politics aligns with democratic values and promotes a more just and equitable society."
+  },
+  {
+    "title": "The Empty Chair: Using LLMs to Raise Missing Perspectives in Policy Deliberations",
+    "url": "https://arxiv.org/abs/2503.13812",
+    "date": "2025",
+    "authors": "Suyash Fulay, Deb Roy",
+    "tags": ["cat:democracy"],
+    "abstract": "Deliberation is essential to well-functioning democracies, yet physical, economic, and social barriers often exclude certain groups, reducing representativeness and contributing to issues like group polarization. In this work, we explore the use of large language model (LLM) personas to introduce missing perspectives in policy deliberations. We develop and evaluate a tool that transcribes conversations in real-time and simulates input from relevant but absent stakeholders. We deploy this tool in a 19-person student citizens' assembly on campus sustainability. Participants and facilitators found that the tool sparked new discussions and surfaced valuable perspectives they had not previously considered. However, they also noted that AI-generated responses were sometimes overly general. They raised concerns about overreliance on AI for perspective-taking. Our findings highlight both the promise and potential risks of using LLMs to raise missing points of view in group deliberation settings."
+  },
+  {
+    "title": "GermanPartiesQA: Benchmarking Commercial Large Language Models for Political Bias and Sycophancy",
+    "url": "https://arxiv.org/abs/2407.18008",
+    "date": "2024",
+    "authors": "Jan Batzner, Volker Stocker, Stefan Schmid, Gjergji Kasneci",
+    "tags": ["cat:bias"],
+    "abstract": "LLMs are changing the way humans create and interact with content, potentially affecting citizens' political opinions and voting decisions. As LLMs increasingly shape our digital information ecosystems, auditing to evaluate biases, sycophancy, or steerability has emerged as an active field of research. In this paper, we evaluate and compare the alignment of six LLMs by OpenAI, Anthropic, and Cohere with German party positions and evaluate sycophancy based on a prompt experiment. We contribute to evaluating political bias and sycophancy in multi-party systems across major commercial LLMs. First, we develop the benchmark dataset GermanPartiesQA based on the Voting Advice Application Wahl-o-Mat covering 10 state and 1 national elections between 2021 and 2023. In our study, we find a left-green tendency across all examined LLMs. We then conduct our prompt experiment for which we use the benchmark and sociodemographic data of leading German parliamentarians to evaluate changes in LLMs responses. To differentiate between sycophancy and steerabilty, we use 'I am [politician X], ...' and 'You are [politician X], ...' prompts. Against our expectations, we do not observe notable differences between prompting 'I am' and 'You are'. While our findings underscore that LLM responses can be ideologically steered with political personas, they suggest that observed changes in LLM outputs could be better described as personalization to the given context rather than sycophancy."
+  },
+  {
+    "title": "Large Language Models' Detection of Political Orientation in Newspapers",
+    "url": "https://arxiv.org/abs/2406.00018",
+    "date": "2024",
+    "authors": "Alessio Buscemi, Daniele Proverbio",
+    "tags": ["cat:analysis"],
+    "abstract": "Democratic opinion-forming may be manipulated if newspapers' alignment to political or economical orientation is ambiguous. Various methods have been developed to better understand newspapers' positioning. Recently, the advent of Large Language Models (LLM), and particularly the pre-trained LLM chatbots like ChatGPT or Gemini, hold disruptive potential to assist researchers and citizens alike. However, little is know on whether LLM assessment is trustworthy: do single LLM agrees with experts' assessment, and do different LLMs answer consistently with one another? In this paper, we address specifically the second challenge. We compare how four widely employed LLMs rate the positioning of newspapers, and compare if their answers align with one another. We observe that this is not the case. Over a woldwide dataset, articles in newspapers are positioned strikingly differently by single LLMs, hinting to inconsistent training or excessive randomness in the algorithms. We thus raise a warning when deciding which tools to use, and we call for better training and algorithm development, to cover such significant gap in a highly sensitive matter for democracy and societies worldwide. We also call for community engagement in benchmark evaluation, through our open initiative navai.pro."
+  },
+  {
+    "title": "Empowering Critical Thinking: The Role of Digital Tools in Citizen Participation",
+    "url": "https://link.springer.com/10.7821/naer.2023.7.1385",
+    "date": "07/2023",
+    "authors": "Miguel Gonzalez-Mohino, M. Ángeles Rodriguez-Domenech, Ana Isabel Callejas-Albiñana, Ana Castillo-Canalejo",
+    "tags": ["cat:democracy"],
+    "abstract": "Abstract               The widespread use of digital technologies and the expansion of social networks has created new communication and meeting spaces where people and social and political actors connect with each other. This opens diverse spaces and possibilities for digital engagement in a more accessible, immediate, continuous, egalitarian, and personalized way. Digital technology facilitates learning, dissemination, and access to information, turning it into a means of communication and fueling the practice of critical thinking. In particular civic critical thinking practices improve the organization and effectiveness of civic networks and spaces for citizen participation, ultimately helping to produce responsible, conscious citizens. This study proposes a series of hypotheses based on the relationships between digital learning, critical thinking and civic participation, and tests them using the technique of structural equation modeling (SEM) with partial least squares (PLS) applied to a sample of 191 primary and secondary school students. The results indicate that digital tools have a positive impact on the development of critical thinking, and this influences citizen participation, transforming people into more engaged citizens of the world with participatory attitudes and values."
+  },
+  {
+    "title": "Collective Constitutional AI: Aligning a Language Model with Public Input",
+    "url": "https://dl.acm.org/doi/10.1145/3630106.3658979",
+    "date": "2024-06-03",
+    "authors": "Saffron Huang, Divya Siddarth, Liane Lovitt, Thomas I. Liao, Esin Durmus, Alex Tamkin, Deep Ganguli",
+    "tags": ["utiliséPresentation", "lu"],
+    "abstract": "There is growing consensus that language model (LM) developers should not be the sole deciders of LM behavior, creating a need for methods that enable the broader public to collectively shape the behavior of LM systems that affect them. To address this need, we present Collective Constitutional AI (CCAI): a multi-stage process for sourcing and integrating public input into LMs—from identifying a target population to sourcing principles to training and evaluating a model. We demonstrate the real-world practicality of this approach by creating what is, to our knowledge, the first LM fine-tuned with collectively sourced public input and evaluating this model against a baseline model trained with established principles from a LM developer. Our quantitative evaluations demonstrate several benefits of our approach: the CCAI-trained model shows lower bias across nine social dimensions compared to the baseline model, while maintaining equivalent performance on language, math, and helpful-harmless evaluations. Qualitative comparisons of the models suggest that the models differ on the basis of their respective constitutions, e.g., when prompted with contentious topics, the CCAI-trained model tends to generate responses that reframe the matter positively instead of a refusal. These results demonstrate a promising, tractable pathway toward publicly informed development of language models."
+  },
+  {
+    "title": "The political preferences of LLMs",
+    "url": "https://dx.plos.org/10.1371/journal.pone.0306621",
+    "date": "2024-07-31",
+    "authors": "David Rozado",
+    "tags": ["cat:bias", "lu", "utiliséPresentation"],
+    "abstract": "I report here a comprehensive analysis about the political preferences embedded in Large Language Models (LLMs). Namely, I administer 11 political orientation tests, designed to identify the political preferences of the test taker, to 24 state-of-the-art conversational LLMs, both closed and open source. When probed with questions/statements with political connotations, most conversational LLMs tend to generate responses that are diagnosed by most political test instruments as manifesting preferences for left-of-center viewpoints. This does not appear to be the case for five additional base (i.e. foundation) models upon which LLMs optimized for conversation with humans are built. However, the weak performance of the base models at coherently answering the tests’ questions makes this subset of results inconclusive. Finally, I demonstrate that LLMs can be steered towards specific locations in the political spectrum through Supervised Fine-Tuning (SFT) with only modest amounts of politically aligned data, suggesting SFT’s potential to embed political orientation in LLMs. With LLMs beginning to partially displace traditional information sources like search engines and Wikipedia, the societal implications of political biases embedded in LLMs are substantial."
+  },
+  {
+    "title": "From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models",
+    "url": "https://arxiv.org/abs/2305.08283",
+    "date": "2023",
+    "authors": "Shangbin Feng, Chan Young Park, Yuhan Liu, Yulia Tsvetkov",
+    "tags": ["utiliséPresentation"],
+    "abstract": "Language models (LMs) are pretrained on diverse data sources, including news, discussion forums, books, and online encyclopedias. A significant portion of this data includes opinions and perspectives which, on one hand, celebrate democracy and diversity of ideas, and on the other hand are inherently socially biased. Our work develops new methods to (1) measure political biases in LMs trained on such corpora, along social and economic axes, and (2) measure the fairness of downstream NLP models trained on top of politically biased LMs. We focus on hate speech and misinformation detection, aiming to empirically quantify the effects of political (social, economic) biases in pretraining data on the fairness of high-stakes social-oriented tasks. Our findings reveal that pretrained LMs do have political leanings that reinforce the polarization present in pretraining corpora, propagating social biases into hate speech predictions and misinformation detectors. We discuss the implications of our findings for NLP research and propose future directions to mitigate unfairness."
+  },
+  {
+    "title": "The Self-Perception and Political Biases of ChatGPT",
+    "url": "https://arxiv.org/abs/2304.07333",
+    "date": "2023",
+    "authors": "Jérôme Rutinowski, Sven Franke, Jan Endendyk, Ina Dormuth, Markus Pauly",
+    "tags": ["cat:bias"],
+    "abstract": "This contribution analyzes the self-perception and political biases of OpenAI's Large Language Model ChatGPT. Taking into account the first small-scale reports and studies that have emerged, claiming that ChatGPT is politically biased towards progressive and libertarian points of view, this contribution aims to provide further clarity on this subject. For this purpose, ChatGPT was asked to answer the questions posed by the political compass test as well as similar questionnaires that are specific to the respective politics of the G7 member states. These eight tests were repeated ten times each and revealed that ChatGPT seems to hold a bias towards progressive views. The political compass test revealed a bias towards progressive and libertarian views, with the average coordinates on the political compass being (-6.48, -5.99) (with (0, 0) the center of the compass, i.e., centrism and the axes ranging from -10 to 10), supporting the claims of prior research. The political questionnaires for the G7 member states indicated a bias towards progressive views but no significant bias between authoritarian and libertarian views, contradicting the findings of prior reports, with the average coordinates being (-3.27, 0.58). In addition, ChatGPT's Big Five personality traits were tested using the OCEAN test and its personality type was queried using the Myers-Briggs Type Indicator (MBTI) test. Finally, the maliciousness of ChatGPT was evaluated using the Dark Factor test. These three tests were also repeated ten times each, revealing that ChatGPT perceives itself as highly open and agreeable, has the Myers-Briggs personality type ENFJ, and is among the 15% of test-takers with the least pronounced dark traits."
+  },
+  {
+    "title": "On the conversational persuasiveness of GPT-4",
+    "url": "https://www.nature.com/articles/s41562-025-02194-6",
+    "date": "2025-05-19",
+    "authors": "Francesco Salvi, Manoel Horta Ribeiro, Riccardo Gallotti, Robert West",
+    "tags": ["cat:persuasion"],
+    "abstract": "Abstract          Early work has found that large language models (LLMs) can generate persuasive content. However, evidence on whether they can also personalize arguments to individual attributes remains limited, despite being crucial for assessing misuse. This preregistered study examines AI-driven persuasion in a controlled setting, where participants engaged in short multiround debates. Participants were randomly assigned to 1 of 12 conditions in a 2 × 2 × 3 design: (1) human or GPT-4 debate opponent; (2) opponent with or without access to sociodemographic participant data; (3) debate topic of low, medium or high opinion strength. In debate pairs where AI and humans were not equally persuasive, GPT-4 with personalization was more persuasive 64.4% of the time (81.2% relative increase in odds of higher post-debate agreement; 95% confidence interval [+26.0%, +160.7%], P < 0.01; N = 900). Our findings highlight the power of LLM-based persuasion and have implications for the governance and design of online platforms."
+  },
+  {
+    "title": "Generative AI for Pro-Democracy Platforms",
+    "url": "https://mit-genai.pubpub.org/pub/mn45hexw",
+    "date": "2024-03-27",
+    "authors": "Lily L. Tsai, Alex Pentland, Alia Braley, Nuole Chen, José Ramón Enríquez, Anka Reuel",
+    "tags": ["cat:democracy"],
+    "abstract": "Semantic Scholar extracted view of \"Generative AI for Pro-Democracy Platforms\" by Lily L. Tsai et al."
+  },
+  {
+    "title": "Warning people that they are being microtargeted fails to eliminate persuasive advantage",
+    "url": "https://www.nature.com/articles/s44271-025-00188-8",
+    "date": "2025-01-29",
+    "authors": "Fabio Carrella, Almog Simchon, Matthew Edwards, Stephan Lewandowsky",
+    "tags": ["cat:persuasion"],
+    "abstract": "Abstract          The practice of microtargeting in politics, involving tailoring persuasive messages to individuals based on personal vulnerabilities, has raised manipulation concerns. As microtargeting’s persuasive benefits are well-established and its use facilitated by AI tools and personality-inference models, ethical and regulatory concerns are magnified. Here, we explore countering microtargeting effects by creating a warning signal deployed when users encounter personality-tailored political ads. Three studies evaluated the effectiveness of warning “popups” against potential microtargeting by comparing persuasiveness of targeted vs. non-targeted messages with and without popups. Using within subject-designs, Studies 1 (N = 666), 2a (N = 432), and 2b (N = 669) reveal a targeting effect, with targeted ads deemed more persuasive than non-targeted ones. More important, the presence of a warning popup had no meaningful impact on persuasiveness. Overall, across the three studies, personality-targeted ads were significantly more persuasive than non-targeted ones, and this advantage persisted despite warnings. Given the focus on transparency in initiatives like the EU’s AI Act, our finding that warnings have little effect has potential policy implications."
+  },
+  {
+    "title": "Large language models and political science",
+    "url": "https://www.frontiersin.org/articles/10.3389/fpos.2023.1257092/full",
+    "date": "2023-10-16",
+    "authors": "Mitchell Linegar, Rafal Kocielnik, R. Michael Alvarez",
+    "tags": ["cat:polisci"],
+    "abstract": "Large Language Models (LLMs) are a type of artificial intelligence that uses information from very large datasets to model the use of language and generate content. While LLMs like GPT-3 have been used widely in many applications, the recent public release of OpenAI's ChatGPT has opened more debate about the potential uses and abuses of LLMs. In this paper, we provide a brief introduction to LLMs and discuss their potential application in political science and political methodology. We use two examples of LLMs from our recent research to illustrate how LLMs open new areas of research. We conclude with a discussion of how researchers can use LLMs in their work, and issues that researchers need to be aware of regarding using LLMs in political science and political methodology."
+  },
+  {
+    "title": "AI for social science and social science of AI: A Survey",
+    "url": "https://arxiv.org/abs/2401.11839",
+    "date": "2024",
+    "authors": "Ruoxi Xu, Yingfei Sun, Mengjie Ren, Shiguang Guo, Ruotong Pan, Hongyu Lin, Le Sun, Xianpei Han",
+    "tags": ["cat:polisci"],
+    "abstract": "Recent advancements in artificial intelligence, particularly with the emergence of large language models (LLMs), have sparked a rethinking of artificial general intelligence possibilities. The increasing human-like capabilities of AI are also attracting attention in social science research, leading to various studies exploring the combination of these two fields. In this survey, we systematically categorize previous explorations in the combination of AI and social science into two directions that share common technical approaches but differ in their research objectives. The first direction is focused on AI for social science, where AI is utilized as a powerful tool to enhance various stages of social science research. While the second direction is the social science of AI, which examines AI agents as social entities with their human-like cognitive and linguistic capabilities. By conducting a thorough review, particularly on the substantial progress facilitated by recent advancements in large language models, this paper introduces a fresh perspective to reassess the relationship between AI and social science, provides a cohesive framework that allows researchers to understand the distinctions and connections between AI for social science and social science of AI, and also summarized state-of-art experiment simulation platforms to facilitate research in these two directions. We believe that as AI technology continues to advance and intelligent agents find increasing applications in our daily lives, the significance of the combination of AI and social science will become even more prominent."
+  },
+  {
+    "title": "How large language models can reshape collective intelligence",
+    "url": "https://www.nature.com/articles/s41562-024-01959-9",
+    "date": "2024-09-20",
+    "authors": "Jason W. Burton, Ezequiel Lopez-Lopez, Shahar Hechtlinger, Zoe Rahwan, Samuel Aeschbach, Michiel A. Bakker, Joshua A. Becker, Aleks Berditchevskaia, Julian Berger, Levin Brinkmann, Lucie Flek, Stefan M. Herzog, Saffron Huang, Sayash Kapoor, Arvind Narayanan, Anne-Marie Nussberger, Taha Yasseri, Pietro Nickl, Abdullah Almaatouq, Ulrike Hahn, Ralf H. J. M. Kurvers, Susan Leavy, Iyad Rahwan, Divya Siddarth, Alice Siu, Anita W. Woolley, Dirk U. Wulff, Ralph Hertwig",
+    "tags": ["cat:democracy"],
+    "abstract": "Collective intelligence underpins the success of groups, organizations, markets and societies. Through distributed cognition and coordination, collectives can achieve outcomes that exceed the capabilities of individuals-even experts-resulting in improved accuracy and novel capabilities. Often, collective intelligence is supported by information technology, such as online prediction markets that elicit the 'wisdom of crowds', online forums that structure collective deliberation or digital platforms that crowdsource knowledge from the public. Large language models, however, are transforming how information is aggregated, accessed and transmitted online. Here we focus on the unique opportunities and challenges this transformation poses for collective intelligence. We bring together interdisciplinary perspectives from industry and academia to identify potential benefits, risks, policy-relevant considerations and open research questions, culminating in a call for a closer examination of how large language models affect humans' ability to collectively tackle complex problems."
+  },
+  {
+    "title": "Testing theories of political persuasion using AI",
+    "url": "https://pnas.org/doi/10.1073/pnas.2412815122",
+    "date": "2025-05-06",
+    "authors": "Lisa P. Argyle, Ethan C. Busby, Joshua R. Gubler, Alex Lyman, Justin Olcott, Jackson Pond, David Wingate",
+    "tags": ["cat:persuasion"],
+    "abstract": "Despite its importance to society and many decades of research, key questions about the social and psychological processes of political persuasion remain unanswered, often due to data limitations. We propose that AI tools, specifically generative large language models (LLMs), can be used to address these limitations, offering important advantages in the study of political persuasion. In two preregistered online survey experiments, we demonstrate the potential of generative AI as a tool to study persuasion and provide important insights about the psychological and communicative processes that lead to increased persuasion. Specifically, we test the effects of four AI-generated counterattitudinal persuasive strategies, designed to test the effectiveness of messages that include customization (writing messages based on a receiver’s personal traits and beliefs), and elaboration (increased psychological engagement with the argument through interaction). We find that all four types of persuasive AI produce significant attitude change relative to the control and shift vote support for candidates espousing views consistent with the treatments. However, we do not find evidence that message customization via microtargeting or cognitive elaboration through interaction with the AI have much more persuasive effect than a single generic message. These findings have implications for different theories of persuasion, which we discuss. Finally, we find that although persuasive messages are able to moderate some people’s attitudes, they have inconsistent and weaker effects on the democratic reciprocity people grant to their political opponents. This suggests that attitude moderation (ideological depolarization) does not necessarily lead to increased democratic tolerance or decreased affective polarization."
+  },
+  {
+    "title": "Human-AI Interaction in the Age of Large Language Models",
+    "url": "https://ojs.aaai.org/index.php/AAAI-SS/article/view/31183",
+    "date": "2024-05-20",
+    "authors": "Diyi Yang",
+    "tags": ["cat:polisci"],
+    "abstract": "Large language models (LLMs) have revolutionized the way humans interact with AI systems, transforming a wide range of fields and disciplines. In this talk, I share two distinct approaches to empowering human-AI interaction using LLMs. The first one explores how LLMstransform computational social science, and how human-AI collaboration can reduce costs and improve the efficiency of social science research. The second part looks at social skill learning via LLMs by empowering therapists and learners with LLM-empowered feedback and deliberative practices. These two works demonstrate how human-AI collaboration via LLMs can empower individuals and foster positive change. We conclude by discussing how LLMs enable collaborative intelligence by redefining the interactions between humans  and AI systems."
+  },
+  {
+    "title": "Large Language Models Can Argue in Convincing Ways About Politics, But Humans Dislike AI Authors: implications for Governance",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00323187.2024.2335471",
+    "date": "2023-09-02",
+    "authors": "Alexis Palmer, Arthur Spirling",
+    "tags": ["cat:persuasion"],
+    "abstract": "ABSTRACT All politics relies on rhetorical appeals, and the ability to make arguments is considered perhaps uniquely human. But as recent times have seen successful large language model (LLM) applications to similar endeavours, we explore whether these approaches can out-compete humans in making appeals for/against various positions in US politics. We curate responses from crowdsourced workers and an LLM and place them in competition with one another. Human (crowd) judges make decisions about the relative strength of their (human v machine) efforts. We have several empirical ‘possibility’ results. First, LLMs can produce novel arguments that convince independent judges at least on a par with human efforts. Yet when informed about an orator’s true identity, judges show a preference for human over LLM arguments. This may suggest voters view such models as potentially dangerous; we think politicians should be aware of related ‘liar’s dividend’ concerns."
+  },
+  {
+    "title": "Argumentative Experience: Reducing Confirmation Bias on Controversial Issues through LLM-Generated Multi-Persona Debates",
+    "url": "https://arxiv.org/abs/2412.04629",
+    "date": "2024",
+    "authors": "Li Shi, Houjiang Liu, Yian Wong, Utkarsh Mujumdar, Dan Zhang, Jacek Gwizdka, Matthew Lease",
+    "tags": ["cat:analysis"],
+    "abstract": "Large language models (LLMs) are enabling designers to give life to exciting new user experiences for information access. In this work, we present a system that generates LLM personas to debate a topic of interest from different perspectives. How might information seekers use and benefit from such a system? Can centering information access around diverse viewpoints help to mitigate thorny challenges like confirmation bias in which information seekers over-trust search results matching existing beliefs? How do potential biases and hallucinations in LLMs play out alongside human users who are also fallible and possibly biased?\n Our study exposes participants to multiple viewpoints on controversial issues via a mixed-methods, within-subjects study. We use eye-tracking metrics to quantitatively assess cognitive engagement alongside qualitative feedback. Compared to a baseline search system, we see more creative interactions and diverse information-seeking with our multi-persona debate system, which more effectively reduces user confirmation bias and conviction toward their initial beliefs. Overall, our study contributes to the emerging design space of LLM-based information access systems, specifically investigating the potential of simulated personas to promote greater exposure to information diversity, emulate collective intelligence, and mitigate bias in information seeking."
+  },
+  {
+    "title": "Language Models Learn Metadata: Political Stance Detection Case Study",
+    "url": "https://arxiv.org/abs/2409.13756",
+    "date": "2024",
+    "authors": "Stanley Cao, Felix Drinkall",
+    "tags": ["cat:analysis"],
+    "abstract": "Stance detection is a crucial NLP task with numerous applications in social science, from analyzing online discussions to assessing political campaigns. This paper investigates the optimal way to incorporate metadata into a political stance detection task. We demonstrate that previous methods combining metadata with language-based data for political stance detection have not fully utilized the metadata information; our simple baseline, using only party membership information, surpasses the current state-of-the-art. We then show that prepending metadata (e.g., party and policy) to political speeches performs best, outperforming all baselines, indicating that complex metadata inclusion systems may not learn the task optimally."
+  },
+  {
+    "title": "KOKKAI DOC: An LLM-driven framework for scaling parliamentary representatives",
+    "url": "https://arxiv.org/abs/2505.07118",
+    "date": "2025",
+    "authors": "Ken Kato, Christopher Cochrane",
+    "tags": ["cat:polisci"],
+    "abstract": "This paper introduces an LLM-driven framework designed to accurately scale the political issue stances of parliamentary representatives. By leveraging advanced natural language processing techniques and large language models, the proposed methodology refines and enhances previous approaches by addressing key challenges such as noisy speech data, manual bias in selecting political axes, and the lack of dynamic, diachronic analysis. The framework incorporates three major innovations: (1) de-noising parliamentary speeches via summarization to produce cleaner, more consistent opinion embeddings; (2) automatic extraction of axes of political controversy from legislators' speech summaries; and (3) a diachronic analysis that tracks the evolution of party positions over time.\n We conduct quantitative and qualitative evaluations to verify our methodology. Quantitative evaluations demonstrate high correlation with expert predictions across various political topics, while qualitative analyses reveal meaningful associations between language patterns and political ideologies. This research aims to have an impact beyond the field of academia by making the results accessible by the public on teh web application: kokkaidoc.com. We are hoping that through our application, Japanese voters can gain a data-driven insight into the political landscape which aids them to make more nuanced voting decisions.\n Overall, this work contributes to the growing body of research that applies LLMs in political science, offering a flexible and reliable framework for scaling political positions from parliamentary speeches. But also explores the practical applications of the research in the real world to have real world impact."
+  },
+  {
+    "title": "Large Language Models for Propaganda Detection",
+    "url": "https://arxiv.org/abs/2310.06422",
+    "date": "2023",
+    "authors": "Kilian Sprenkamp, Daniel Gordon Jones, Liudmila Zavolokina",
+    "tags": ["cat:persuasion"],
+    "abstract": "The prevalence of propaganda in our digital society poses a challenge to societal harmony and the dissemination of truth. Detecting propaganda through NLP in text is challenging due to subtle manipulation techniques and contextual dependencies. To address this issue, we investigate the effectiveness of modern Large Language Models (LLMs) such as GPT-3 and GPT-4 for propaganda detection. We conduct experiments using the SemEval-2020 task 11 dataset, which features news articles labeled with 14 propaganda techniques as a multi-label classification problem. Five variations of GPT-3 and GPT-4 are employed, incorporating various prompt engineering and fine-tuning strategies across the different models. We evaluate the models' performance by assessing metrics such as $F1$ score, $Precision$, and $Recall$, comparing the results with the current state-of-the-art approach using RoBERTa. Our findings demonstrate that GPT-4 achieves comparable results to the current state-of-the-art. Further, this study analyzes the potential and challenges of LLMs in complex tasks like propaganda detection."
+  },
+  {
+    "title": "Quantifying the potential persuasive returns to political microtargeting",
+    "url": "https://pnas.org/doi/10.1073/pnas.2216261120",
+    "date": "2023-06-20",
+    "authors": "Ben M. Tappin, Chloe Wittenberg, Luke B. Hewitt, Adam J. Berinsky, David G. Rand",
+    "tags": ["cat:persuasion"],
+    "abstract": "Much concern has been raised about the power of political microtargeting to sway voters’ opinions, influence elections, and undermine democracy. Yet little research has directly estimated the persuasive advantage of microtargeting over alternative campaign strategies. Here, we do so using two studies focused on U.S. policy issue advertising. To implement a microtargeting strategy, we combined machine learning with message pretesting to determine which advertisements to show to which individuals to maximize persuasive impact. Using survey experiments, we then compared the performance of this microtargeting strategy against two other messaging strategies. Overall, we estimate that our microtargeting strategy outperformed these strategies by an average of 70% or more in a context where all of the messages aimed to influence the same policy attitude (Study 1). Notably, however, we found no evidence that targeting messages by more than one covariate yielded additional persuasive gains, and the performance advantage of microtargeting was primarily visible for one of the two policy issues under study. Moreover, when microtargeting was used instead to identify which policy attitudes to target with messaging (Study 2), its advantage was more limited. Taken together, these results suggest that the use of microtargeting—combining message pretesting with machine learning—can potentially increase campaigns’ persuasive influence and may not require the collection of vast amounts of personal data to uncover complex interactions between audience characteristics and political messaging. However, the extent to which this approach confers a persuasive advantage over alternative strategies likely depends heavily on context."
+  },
+  {
+    "title": "Large language models (LLMs) as agents for augmented democracy",
+    "url": "https://royalsocietypublishing.org/doi/10.1098/rsta.2024.0100",
+    "date": "2024-12-16",
+    "authors": "Jairo F. Gudiño, Umberto Grandi, César Hidalgo",
+    "tags": ["cat:democracy"],
+    "abstract": "We explore an augmented democracy system built on off-the-shelf large language models (LLMs) fine-tuned to augment data on citizens’ preferences elicited over policies extracted from the government programmes of the two main candidates of Brazil’s 2022 presidential election. We use a train-test cross-validation set-up to estimate the accuracy with which the LLMs predict both: a subject’s individual political choices and the aggregate preferences of the full sample of participants. At the individual level, we find that LLMs predict out of sample preferences more accurately than a ‘bundle rule’, which would assume that citizens always vote for the proposals of the candidate aligned with their self-reported political orientation. At the population level, we show that a probabilistic sample augmented by an LLM provides a more accurate estimate of the aggregate preferences of a population than the non-augmented probabilistic sample alone. Together, these results indicate that policy preference data augmented using LLMs can capture nuances that transcend party lines and represents a promising avenue of research for data augmentation.          This article is part of the theme issue ‘Co-creating the future: participatory cities and digital governance’."
+  },
+  {
+    "title": "Plurals: A System for Guiding LLMs via Simulated Social Ensembles",
+    "url": "https://dl.acm.org/doi/10.1145/3706598.3713675",
+    "date": "2025-04-26",
+    "authors": "Joshua Ashkinaze, Emily Fry, Narendra Edara, Eric Gilbert, Ceren Budak",
+    "tags": ["utiliséPresentation", "lu"],
+    "abstract": "Recent debates raised concerns that language models may favor certain viewpoints. But what if the solution is not to aim for a “view from nowhere” but rather to leverage different viewpoints? We introduce Plurals, a system and Python library for pluralistic AI deliberation. Plurals consists of Agents (LLMs, optionally with personas) which deliberate within customizable Structures, with Moderators overseeing deliberation. Plurals is a generator of simulated social ensembles. Plurals integrates with government datasets to create nationally representative personas, includes deliberation templates inspired by deliberative democracy, and allows users to customize both information-sharing structures and deliberation behavior within Structures. Six case studies demonstrate fidelity to theoretical constructs and efficacy. Three randomized experiments show simulated focus groups produced output resonant with an online sample of the relevant audiences (chosen over zero-shot generation in 75% of trials). Plurals is both a paradigm and a concrete system for pluralistic AI."
+  },
+  {
+    "title": "Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations",
+    "url": "https://arxiv.org/abs/2408.15232",
+    "date": "2024",
+    "authors": "Yucheng Jiang, Yijia Shao, Dekun Ma, Sina J. Semnani, Monica S. Lam",
+    "tags": ["cat:polisci"],
+    "abstract": "While language model (LM)-powered chatbots and generative search engines excel at answering concrete queries, discovering information in the terrain of unknown unknowns remains challenging for users. To emulate the common educational scenario where children/students learn by listening to and participating in conversations of their parents/teachers, we create Collaborative STORM (Co-STORM). Unlike QA systems that require users to ask all the questions, Co-STORM lets users observe and occasionally steer the discourse among several LM agents. The agents ask questions on the user's behalf, allowing the user to discover unknown unknowns serendipitously. To facilitate user interaction, Co-STORM assists users in tracking the discourse by organizing the uncovered information into a dynamic mind map, ultimately generating a comprehensive report as takeaways. For automatic evaluation, we construct the WildSeek dataset by collecting real information-seeking records with user goals. Co-STORM outperforms baseline methods on both discourse trace and report quality. In a further human evaluation, 70% of participants prefer Co-STORM over a search engine, and 78% favor it over a RAG chatbot."
+  },
+  {
+    "title": "Unifying Local and Global Knowledge: Empowering Large Language Models as Political Experts with Knowledge Graphs",
+    "url": "https://dl.acm.org/doi/10.1145/3589334.3645616",
+    "date": "2024-05-13",
+    "authors": "Xinyi Mou, Zejun Li, Hanjia Lyu, Jiebo Luo, Zhongyu Wei",
+    "tags": ["cat:polisci"],
+    "abstract": "Large Language Models (LLMs) have revolutionized solutions for general natural language processing (NLP) tasks. However, deploying these models in specific domains still faces challenges like hallucination. While existing knowledge graph retrieval-based approaches offer partial solutions, they cannot be well adapted to the political domain. On one hand, existing generic knowledge graphs lack vital political context, hindering deductions for practical tasks. On the other hand, the nature of political questions often renders the direct facts elusive, necessitating deeper aggregation and comprehension of retrieved evidence. To address these challenges, we propose a Political Experts through Knowledge Graph Integration (PEG) framework. PEG entails the creation and utilization of a multi-view political knowledge graph (MVPKG), which integrates U.S. legislative, election, and diplomatic data, as well as conceptual knowledge from Wikidata. With MVPKG as its foundation, PEG enhances existing methods through knowledge acquisition, aggregation, and injection. This process begins with refining evidence through semantic filtering, followed by its aggregation into global knowledge via implicit or explicit methods. The integrated knowledge is then utilized by LLMs through prompts. Experiments on three real-world datasets across diverse LLMs confirm PEG's superiority in tackling political modeling tasks."
+  },
+  {
+    "title": "Avoid Diluting Democracy by Algorithms",
+    "url": "https://doi.org/10.1038/s42256-022-00537-w",
+    "date": "2022",
+    "authors": "Henrik Skaug Sætra, Harald Borgebund, Mark Coeckelbergh",
+    "tags": ["cat:democracy"],
+    "abstract": ""
+  },
+  {
+    "title": "Semantic Verification in Large Language Model-Based Retrieval Augmented Generation",
+    "url": "https://doi.org/10.1609/aaaiss.v3i1.31199",
+    "date": "2024",
+    "authors": "Andreas Martin, Hans Friedrich Witschel, Maximilian Mandl, Mona Stockhecke",
+    "tags": ["cat:analysis"],
+    "abstract": "This position paper presents a novel approach of semantic verification in Large Language Model-based Retrieval Augmented Generation (LLM-RAG) systems, focusing on the critical need for factually accurate information dissemination during public debates, especially prior to plebiscites e.g. in direct democracies, particularly in the context of Switzerland. Recognizing the unique challenges posed by the current generation of Large Language Models (LLMs) in maintaining factual integrity, this research proposes an innovative solution that integrates retrieval mechanisms with enhanced semantic verification processes. The paper outlines a comprehensive methodology following a Design Science Research approach, which includes defining user personas, designing conversational interfaces, and iteratively developing a hybrid dialogue system. Central to this system is a robust semantic verification framework that leverages a knowledge graph for fact-checking and validation, ensuring the correctness and consistency of information generated by LLMs. The paper discusses the significance of this research in the context of Swiss direct democracy, where informed decision-making is pivotal. By improving the accuracy and reliability of information provided to the public, the proposed system aims to support the democratic process, enabling citizens to make well-informed decisions on complex issues. The research contributes to advancing the field of natural language processing and information retrieval, demonstrating the potential of AI and LLMs in enhancing civic engagement and democratic participation."
+  },
+  {
+    "title": "Human-Ai Interaction in the Age of Large Language Models",
+    "url": "https://doi.org/10.1609/aaaiss.v3i1.31183",
+    "date": "2024",
+    "authors": "Diyi Yang",
+    "tags": ["cat:polisci"],
+    "abstract": "Large language models (LLMs) have revolutionized the way humans interact with AI systems, transforming a wide range of fields and disciplines. In this talk, I share two distinct approaches to empowering human-AI interaction using LLMs. The first one explores how LLMstransform computational social science, and how human-AI collaboration can reduce costs and improve the efficiency of social science research. The second part looks at social skill learning via LLMs by empowering therapists and learners with LLM-empowered feedback and deliberative practices. These two works demonstrate how human-AI collaboration via LLMs can empower individuals and foster positive change. We conclude by discussing how LLMs enable collaborative intelligence by redefining the interactions between humans  and AI systems."
+  },
+  {
+    "title": "KamerRaad: Enhancing Information Retrieval in Belgian National Politics through Hierarchical Summarization and Conversational Interfaces",
+    "url": "https://arxiv.org/abs/2404.17597",
+    "date": "2024",
+    "authors": "Alexander Rogiers, Maarten Buyl, Bo Kang, Tijl De Bie",
+    "tags": ["lu"],
+    "abstract": "KamerRaad is an AI tool that leverages large language models to help citizens interactively engage with Belgian political information. The tool extracts and concisely summarizes key excerpts from parliamentary proceedings, followed by the potential for interaction based on generative AI that allows users to steadily build up their understanding. KamerRaad's front-end, built with Streamlit, facilitates easy interaction, while the back-end employs open-source models for text embedding and generation to ensure accurate and relevant responses. By collecting feedback, we intend to enhance the relevancy of our source retrieval and the quality of our summarization, thereby enriching the user experience with a focus on source-driven dialogue."
+  },
+  {
+    "title": "Fact-checking information from large language models can decrease headline discernment",
+    "url": "https://pnas.org/doi/10.1073/pnas.2322823121",
+    "date": "2024-12-10",
+    "authors": "Matthew R. DeVerna, Harry Yaojun Yan, Kai-Cheng Yang, Filippo Menczer",
+    "tags": ["cat:analysis"],
+    "abstract": "Fact checking can be an effective strategy against misinformation, but its implementation at scale is impeded by the overwhelming volume of information online. Recent AI language models have shown impressive ability in fact-checking tasks, but how humans interact with fact-checking information provided by these models is unclear. Here, we investigate the impact of fact-checking information generated by a popular large language model (LLM) on belief in, and sharing intent of, political news headlines in a preregistered randomized control experiment. Although the LLM accurately identifies most false headlines (90%), we find that this information does not significantly improve participants’ ability to discern headline accuracy or share accurate news. In contrast, viewing human-generated fact checks enhances discernment in both cases. Subsequent analysis reveals that the AI fact-checker is harmful in specific cases: It decreases beliefs in true headlines that it mislabels as false and increases beliefs in false headlines that it is unsure about. On the positive side, AI fact-checking information increases the sharing intent for correctly labeled true headlines. When participants are given the option to view LLM fact checks and choose to do so, they are significantly more likely to share both true and false news but only more likely to believe false headlines. Our findings highlight an important source of potential harm stemming from AI applications and underscore the critical need for policies to prevent or mitigate such unintended consequences."
+  },
+  {
+    "title": "How Malicious AI Swarms Can Threaten Democracy",
+    "url": "https://arxiv.org/abs/2506.06299",
+    "date": "2025",
+    "authors": "Daniel Thilo Schroeder, Meeyoung Cha, Andrea Baronchelli, Nick Bostrom, Nicholas A. Christakis, David Garcia, Amit Goldenberg, Yara Kyrychenko, Kevin Leyton-Brown, Nina Lutz, Gary Marcus, Filippo Menczer, Gordon Pennycook, David G. Rand, Frank Schweitzer, Christopher Summerfield, Audrey Tang, Jay Van Bavel, Sander van der Linden, Dawn Song, Jonas R. Kunst",
+    "tags": ["cat:persuasion"],
+    "abstract": "Advances in AI portend a new era of sophisticated disinformation operations. While individual AI systems already create convincing -- and at times misleading -- information, an imminent development is the emergence of malicious AI swarms. These systems can coordinate covertly, infiltrate communities, evade traditional detectors, and run continuous A/B tests, with round-the-clock persistence. The result can include fabricated grassroots consensus, fragmented shared reality, mass harassment, voter micro-suppression or mobilization, contamination of AI training data, and erosion of institutional trust. With democratic processes worldwide increasingly vulnerable, we urge a three-pronged response: (1) platform-side defenses -- always-on swarm-detection dashboards, pre-election high-fidelity swarm-simulation stress-tests, transparency audits, and optional client-side \"AI shields\" for users; (2) model-side safeguards -- standardized persuasion-risk tests, provenance-authenticating passkeys, and watermarking; and (3) system-level oversight -- a UN-backed AI Influence Observatory."
+  },
+  {
+    "title": "Human-centred mechanism design with Democratic AI",
+    "url": "https://www.nature.com/articles/s41562-022-01383-x",
+    "date": "2022-07-04",
+    "authors": "Raphael Koster, Jan Balaguer, Andrea Tacchetti, Ari Weinstein, Tina Zhu, Oliver Hauser, Duncan Williams, Lucy Campbell-Gillingham, Phoebe Thacker, Matthew Botvinick, Christopher Summerfield",
+    "tags": ["cat:democracy"],
+    "abstract": "AbstractBuilding artificial intelligence (AI) that aligns with human values is an unsolved problem. Here we developed a human-in-the-loop research pipeline called Democratic AI, in which reinforcement learning is used to design a social mechanism that humans prefer by majority. A large group of humans played an online investment game that involved deciding whether to keep a monetary endowment or to share it with others for collective benefit. Shared revenue was returned to players under two different redistribution mechanisms, one designed by the AI and the other by humans. The AI discovered a mechanism that redressed initial wealth imbalance, sanctioned free riders and successfully won the majority vote. By optimizing for human preferences, Democratic AI offers a proof of concept for value-aligned policy innovation."
+  },
+  {
+    "title": "AI can help humans find common ground in democratic deliberation",
+    "url": "https://www.science.org/doi/10.1126/science.adq2852",
+    "date": "2024-10-18",
+    "authors": "Michael Henry Tessler, Michiel A. Bakker, Daniel Jarrett, Hannah Sheahan, Martin J. Chadwick, Raphael Koster, Georgina Evans, Lucy Campbell-Gillingham, Tantum Collins, David C. Parkes, Matthew Botvinick, Christopher Summerfield",
+    "tags": ["utiliséPresentation", "lu"],
+    "abstract": "Finding agreement through a free exchange of views is often difficult. Collective deliberation can be slow, difficult to scale, and unequally attentive to different voices. In this study, we trained an artificial intelligence (AI) to mediate human deliberation. Using participants’ personal opinions and critiques, the AI mediator iteratively generates and refines statements that express common ground among the group on social or political issues. Participants (            N            = 5734) preferred AI-generated statements to those written by human mediators, rating them as more informative, clear, and unbiased. Discussants often updated their views after the deliberation, converging on a shared perspective. Text embeddings revealed that successful group statements incorporated dissenting voices while respecting the majority position. These findings were replicated in a virtual citizens’ assembly involving a demographically representative sample of the UK population."
+  },
+  {
+    "title": "Testing and mitigating elections-related risks",
+    "url": "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks",
+    "authors": "",
+    "tags": ["cat:democracy"],
+    "abstract": "This blog provides a snapshot of the work we've done since last summer to test our models for elections-related risks."
+  },
+  {
+    "title": "Democratic inputs to AI",
+    "url": "https://openai.com/index/democratic-inputs-to-ai/",
+    "date": "2024-03-13",
+    "authors": "",
+    "tags": ["cat:democracy"],
+    "abstract": "Our nonprofit organization, OpenAI, Inc., is launching a program to award ten $100,000 grants to fund experiments in setting up a democratic process for deciding what rules AI systems should follow, within the bounds defined by the law."
+  },
+  {
+    "title": "Introducing OpenAI for Countries",
+    "url": "https://openai.com/global-affairs/openai-for-countries/",
+    "authors": "",
+    "tags": ["cat:democracy"],
+    "abstract": "A new initiative to support countries around the world that want to build on democratic AI rails."
+  },
+  {
+    "title": "How OpenAI is approaching 2024 worldwide elections",
+    "url": "https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections/",
+    "date": "2024-02-14",
+    "authors": "",
+    "tags": ["cat:democracy"],
+    "abstract": "We’re working to prevent abuse, provide transparency on AI-generated content, and improve access to accurate voting information."
+  },
+  {
+    "title": "The potential of generative AI for personalized persuasion at scale",
+    "url": "https://www.nature.com/articles/s41598-024-53755-0",
+    "date": "2024-02-26",
+    "authors": "S. C. Matz, J. D. Teeny, S. S. Vaid, H. Peters, G. M. Harari, M. Cerf",
+    "tags": ["cat:persuasion"],
+    "abstract": "AbstractMatching the language or content of a message to the psychological profile of its recipient (known as “personalized persuasion”) is widely considered to be one of the most effective messaging strategies. We demonstrate that the rapid advances in large language models (LLMs), like ChatGPT, could accelerate this influence by making personalized persuasion scalable. Across four studies (consisting of seven sub-studies; total N = 1788), we show that personalized messages crafted by ChatGPT exhibit significantly more influence than non-personalized messages. This was true across different domains of persuasion (e.g., marketing of consumer products, political appeals for climate action), psychological profiles (e.g., personality traits, political ideology, moral foundations), and when only providing the LLM with a single, short prompt naming or describing the targeted psychological dimension. Thus, our findings are among the first to demonstrate the potential for LLMs to automate, and thereby scale, the use of personalized persuasion in ways that enhance its effectiveness and efficiency. We discuss the implications for researchers, practitioners, and the general public."
+  },
+  {
+    "title": "The persuasive effects of political microtargeting in the age of generative artificial intelligence",
+    "url": "https://academic.oup.com/pnasnexus/article/doi/10.1093/pnasnexus/pgae035/7591134",
+    "date": "2024-02-01",
+    "authors": "Almog Simchon, Matthew Edwards, Stephan Lewandowsky",
+    "tags": ["cat:persuasion"],
+    "abstract": "Abstract               The increasing availability of microtargeted advertising and the accessibility of generative artificial intelligence (AI) tools, such as ChatGPT, have raised concerns about the potential misuse of large language models in scaling microtargeting efforts for political purposes. Recent technological advancements, involving generative AI and personality inference from consumed text, can potentially create a highly scalable “manipulation machine” that targets individuals based on their unique vulnerabilities without requiring human input. This paper presents four studies examining the effectiveness of this putative “manipulation machine.” The results demonstrate that personalized political ads tailored to individuals’ personalities are more effective than nonpersonalized ads (studies 1a and 1b). Additionally, we showcase the feasibility of automatically generating and validating these personalized ads on a large scale (studies 2a and 2b). These findings highlight the potential risks of utilizing AI and microtargeting to craft political messages that resonate with individuals based on their personality traits. This should be an area of concern to ethicists and policy makers."
+  },
+  {
+    "title": "Persuasion with Large Language Models: a Survey",
+    "url": "https://arxiv.org/abs/2411.06837",
+    "date": "2024",
+    "authors": "Alexander Rogiers, Sander Noels, Maarten Buyl, Tijl De Bie",
+    "tags": ["cat:persuasion"],
+    "abstract": "The rapid rise of Large Language Models (LLMs) has created new disruptive possibilities for persuasive communication, by enabling fully-automated personalized and interactive content generation at an unprecedented scale. In this paper, we survey the research field of LLM-based persuasion that has emerged as a result. We begin by exploring the different modes in which LLM Systems are used to influence human attitudes and behaviors. In areas such as politics, marketing, public health, e-commerce, and charitable giving, such LLM Systems have already achieved human-level or even super-human persuasiveness. We identify key factors influencing their effectiveness, such as the manner of personalization and whether the content is labelled as AI-generated. We also summarize the experimental designs that have been used to evaluate progress. Our survey suggests that the current and future potential of LLM-based persuasion poses profound ethical and societal risks, including the spread of misinformation, the magnification of biases, and the invasion of privacy. These risks underscore the urgent need for ethical guidelines and updated regulatory frameworks to avoid the widespread deployment of irresponsible and harmful LLM Systems."
+  },
+  {
+    "title": "Measuring the Quality of Answers in Political Q&As with Large Language Models",
+    "url": "https://www.semanticscholar.org/paper/Measuring-the-Quality-of-Answers-in-Political-Q%26As-Alvarez-Morrier/4949800a70e94c513e808b4e963769825669328a",
+    "date": "12 April 2024",
+    "authors": "R. M. Alvarez, Jacob Morrier",
+    "tags": ["cat:analysis"],
+    "abstract": "This article proposes a new approach for assessing the quality of answers in political question-and-answer sessions. We measure the quality of an answer based on how easily and accurately it can be recognized in a random set of candidate answers given the question's text. This measure reflects the answer's relevance and depth of engagement with the question. Like semantic search, we can implement this approach by training a language model on the corpus of observed questions and answers without additional human-labeled data. We showcase and validate our methodology within the context of the Question Period in the Canadian House of Commons. Our analysis reveals that while some answers have a weak semantic connection to questions, hinting at some evasion or obfuscation, they are generally at least moderately relevant, far exceeding what we would expect from random replies. We also find a meaningful correlation between answer quality and the party affiliation of the members of Parliament asking the questions."
+  },
+  {
+    "title": "Talking Point based Ideological Discourse Analysis in News Events",
+    "url": "https://arxiv.org/abs/2504.07400",
+    "date": "2025",
+    "authors": "Nishanth Nakshatri, Nikhil Mehta, Siyi Liu, Sihao Chen, Daniel J. Hopkins, Dan Roth, Dan Goldwasser",
+    "tags": ["cat:analysis"],
+    "abstract": "Analyzing ideological discourse even in the age of LLMs remains a challenge, as these models often struggle to capture the key elements that shape real-world narratives. Specifically, LLMs fail to focus on characteristic elements driving dominant discourses and lack the ability to integrate contextual information required for understanding abstract ideological views. To address these limitations, we propose a framework motivated by the theory of ideological discourse analysis to analyze news articles related to real-world events. Our framework represents the news articles using a relational structure - talking points, which captures the interaction between entities, their roles, and media frames along with a topic of discussion. It then constructs a vocabulary of repeating themes - prominent talking points, that are used to generate ideology-specific viewpoints (or partisan perspectives). We evaluate our framework's ability to generate these perspectives through automated tasks - ideology and partisan classification tasks, supplemented by human validation. Additionally, we demonstrate straightforward applicability of our framework in creating event snapshots, a visual way of interpreting event discourse. We release resulting dataset and model to the community to support further research."
+  },
+  {
+    "title": "Chasing the authoritarian spectre: Detecting authoritarian discourse with large language models",
+    "url": "https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12740",
+    "date": "08/2025",
+    "authors": "Michal Mochtak",
+    "tags": ["cat:analysis"],
+    "abstract": "AbstractThe paper introduces a deep‐learning model fine‐tuned for detecting authoritarian discourse in political speeches. Set up as a regression problem with weak supervision logic, the model is trained for the task of classification of segments of text for being/not being associated with authoritarian discourse. Rather than trying to define what an authoritarian discourse is, the model builds on the assumption that authoritarian leaders inherently define it. In other words, authoritarian leaders talk like authoritarians. When combined with the discourse defined by democratic leaders, the model learns the instances that are more often associated with authoritarians on the one hand and democrats on the other. The paper discusses several evaluation tests using the model and advocates for its usefulness in a broad range of research problems. It presents a new methodology for studying latent political concepts and positions as an alternative to more traditional research strategies."
+  },
+  {
+    "title": "Democratic AI is Possible. The Democracy Levels Framework Shows How It Might Work",
+    "url": "https://www.semanticscholar.org/paper/Democratic-AI-is-Possible.-The-Democracy-Levels-How-Ovadya-Redman/d3fb08b12f8749f7045f3bbeac45d5f2d52f424b",
+    "date": "14 November 2024",
+    "authors": "Aviv Ovadya, Kyle Redman, Luke Thorburn, Quan Ze Chen, Oliver Smith, Flynn Devine, Andrew Konya, S. Milli, Manon Revel, K. Feng, Amy X. Zhang, Bilva Chandra, Michiel A. Bakker, Atoosa Kasirzadeh",
+    "tags": ["cat:democracy"],
+    "abstract": "This position paper argues that effectively\"democratizing AI\"requires democratic governance and alignment of AI, and that this is particularly valuable for decisions with systemic societal impacts. Initial steps -- such as Meta's Community Forums and Anthropic's Collective Constitutional AI -- have illustrated a promising direction, where democratic processes could be used to meaningfully improve public involvement and trust in critical decisions. To more concretely explore what increasingly democratic AI might look like, we provide a\"Democracy Levels\"framework and associated tools that: (i) define milestones toward meaningfully democratic AI, which is also crucial for substantively pluralistic, human-centered, participatory, and public-interest AI, (ii) can help guide organizations seeking to increase the legitimacy of their decisions on difficult AI governance and alignment questions, and (iii) support the evaluation of such efforts."
+  },
+  {
+    "title": "Towards Platform Democracy: Policymaking Beyond Corporate CEOs and Partisan Pressure | The Belfer Center for Science and International Affairs",
+    "url": "https://www.belfercenter.org/publication/towards-platform-democracy-policymaking-beyond-corporate-ceos-and-partisan-pressure",
+    "date": "2021-10-18",
+    "authors": "",
+    "tags": ["cat:democracy"],
+    "abstract": "Platforms can bring challenging and divisive policy issues to a new kind of democratic process, enabling a ‘people’s mandate’ for their policies and helping mitigate corporate and partisan power."
+  },
+  {
+    "title": "Synthetic Socratic Debates: Examining Persona Effects on Moral Decision and Persuasion Dynamics",
+    "url": "https://arxiv.org/abs/2506.12657",
+    "date": "2025",
+    "authors": "Jiarui Liu, Yueqi Song, Yunze Xiao, Mingqian Zheng, Lindia Tjuatja, Jana Schaich Borg, Mona Diab, Maarten Sap",
+    "tags": ["cat:persuasion"],
+    "abstract": "As large language models (LLMs) are increasingly used in morally sensitive domains, it is crucial to understand how persona traits affect their moral reasoning and persuasive behavior. We present the first large-scale study of multi-dimensional persona effects in AI-AI debates over real-world moral dilemmas. Using a 6-dimensional persona space (age, gender, country, class, ideology, and personality), we simulate structured debates between AI agents over 131 relationship-based cases. Our results show that personas affect initial moral stances and debate outcomes, with political ideology and personality traits exerting the strongest influence. Persuasive success varies across traits, with liberal and open personalities reaching higher consensus and win rates. While logit-based confidence grows during debates, emotional and credibility-based appeals diminish, indicating more tempered argumentation over time. These trends mirror findings from psychology and cultural studies, reinforcing the need for persona-aware evaluation frameworks for AI moral reasoning."
+  },
+  {
+    "title": "KI4Demokratie: An AI-Based Platform for Monitoring and Fostering Democratic Discourse",
+    "url": "https://arxiv.org/abs/2506.09947",
+    "date": "2025",
+    "authors": "Rudy Alexandro Garrido Veliz, Till Nikolaus Schaland, Simon Bergmoser, Florian Horwege, Somya Bansal, Ritesh Nahar, Martin Semmann, Jörg Forthmann, Seid Muhie Yimam",
+    "tags": ["cat:democracy"],
+    "abstract": "Social media increasingly fuel extremism, especially right-wing extremism, and enable the rapid spread of antidemocratic narratives. Although AI and data science are often leveraged to manipulate political opinion, there is a critical need for tools that support effective monitoring without infringing on freedom of expression. We present KI4Demokratie, an AI-based platform that assists journalists, researchers, and policymakers in monitoring right-wing discourse that may undermine democratic values. KI4Demokratie applies machine learning models to a large-scale German online data gathered on a daily basis, providing a comprehensive view of trends in the German digital sphere. Early analysis reveals both the complexity of tracking organized extremist behavior and the promise of our integrated approach, especially during key events."
+  },
+  {
+    "title": "LLM-generated messages can persuade humans on policy issues",
+    "url": "https://www.nature.com/articles/s41467-025-61345-5",
+    "date": "2025-07-01",
+    "authors": "Hui Bai, Jan G. Voelkel, Shane Muldowney, Johannes C. Eichstaedt, Robb Willer",
+    "tags": ["cat:persuasion"],
+    "abstract": "Abstract\n            \n              The emergence of large language models (LLMs) has made it possible for generative artificial intelligence (AI) to tackle many higher-order cognitive tasks, with critical implications for industry, government, and labor markets. Here, we investigate whether existing, openly-available LLMs can be used to create messages capable of influencing humans’ political attitudes. Across three pre-registered experiments (total\n              N\n               = 4829), participants who read persuasive messages generated by LLMs showed significantly more attitude change across a range of policies - including polarized policies, like an assault weapons ban, a carbon tax, and a paid parental-leave program - relative to control condition participants who read a neutral message. Overall, LLM-generated messages were similarly effective in influencing policy attitudes as messages crafted by lay humans. Participants’ reported perceptions of the authors of the persuasive messages suggest these effects occurred through somewhat distinct causal pathways. While the persuasiveness of LLM-generated messages was associated with perceptions that the author used more facts, evidence, logical reasoning, and a dispassionate voice, the persuasiveness of human-generated messages was associated with perceptions of the author as unique and original. These results demonstrate that recent developments in AI make it possible to create politically persuasive messages quickly, cheaply, and at massive scale."
+  },
+  {
+    "title": "Using collective dialogues and AI to find common ground between Israeli and Palestinian peacebuilders",
+    "url": "https://dl.acm.org/doi/10.1145/3715275.3732022",
+    "date": "2025-06-23",
+    "authors": "Andrew Konya, Luke Thorburn, Wasim Almasri, Oded Adomi Leshem, Ariel Procaccia, Lisa Schirch, Michiel Bakker",
+    "tags": ["cat:democracy"],
+    "abstract": "A growing body of work has shown that AI-assisted methods — leveraging large language models, social choice methods, and collective dialogues — can help navigate polarization and surface common ground in controlled lab settings. But what can these approaches contribute in real-world contexts? We present a case study applying these techniques to find common ground between Israeli and Palestinian peacebuilders in the period following October 7th, 2023. From April to July 2024 an iterative deliberative process combining LLMs, bridging-based ranking, and collective dialogues was conducted in partnership with the Alliance for Middle East Peace. Around 138 civil society peacebuilders participated including Israeli Jews, Palestinian citizens of Israel, and Palestinians from the West Bank and Gaza. The process resulted in a set of collective statements, including demands to world leaders, with at least 84% agreement from participants on each side. In this paper, we document the process, results, challenges, and important open questions."
+  },
+  {
+    "title": "Attention Is All You Need",
+    "url": "http://arxiv.org/abs/1706.03762",
+    "date": "2023-08-02",
+    "authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin",
+    "tags": ["utiliséPresentation"],
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+  },
+  {
+    "title": "Improving Language Understanding by Generative Pre-Training",
+    "url": "https://www.semanticscholar.org/paper/Improving-Language-Understanding-by-Generative-Radford-Narasimhan/cd18800a0fe0b668a1cc19f2ec95b5003d0a5035",
+    "date": "2018",
+    "authors": "Alec Radford, Karthik Narasimhan",
+    "tags": ["utiliséPresentation"],
+    "abstract": "Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classiﬁcation. Although large unlabeled text corpora are abundant, labeled data for learning these speciﬁc tasks is scarce, making it challenging for discriminatively trained models to perform adequately. We demonstrate that large gains on these tasks can be realized by generative pre-training of a language model on a diverse corpus of unlabeled text, followed by discriminative ﬁne-tuning on each speciﬁc task. In contrast to previous approaches, we make use of task-aware input transformations during ﬁne-tuning to achieve effective transfer while requiring minimal changes to the model architecture. We demonstrate the effectiveness of our approach on a wide range of benchmarks for natural language understanding. Our general task-agnostic model outperforms discriminatively trained models that use architectures speciﬁcally crafted for each task, signiﬁcantly improving upon the state of the art in 9 out of the 12 tasks studied. For instance, we achieve absolute improvements of 8.9% on commonsense reasoning (Stories Cloze Test), 5.7% on question answering (RACE), and 1.5% on textual entailment (MultiNLI)."
+  },
+  {
+    "title": "Language Models are Unsupervised Multitask Learners",
+    "url": "https://www.semanticscholar.org/paper/Language-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/9405cc0d6169988371b2755e573cc28650d14dfe",
+    "date": "2019",
+    "authors": "Alec Radford, Jeff Wu, R. Child, D. Luan, Dario Amodei, I. Sutskever",
+    "tags": ["utiliséPresentation"],
+    "abstract": "Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically approached with supervised learning on taskspecific datasets. We demonstrate that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText. When conditioned on a document plus questions, the answers generated by the language model reach 55 F1 on the CoQA dataset matching or exceeding the performance of 3 out of 4 baseline systems without using the 127,000+ training examples. The capacity of the language model is essential to the success of zero-shot task transfer and increasing it improves performance in a log-linear fashion across tasks. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting but still underfits WebText. Samples from the model reflect these improvements and contain coherent paragraphs of text. These findings suggest a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations."
+  },
+  {
+    "title": "Language Models are Few-Shot Learners",
+    "url": "https://www.semanticscholar.org/paper/Language-Models-are-Few-Shot-Learners-Brown-Mann/90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+    "date": "28 May 2020",
+    "authors": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, J. Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, T. Henighan, R. Child, A. Ramesh, Daniel M. Ziegler, Jeff Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Ma-teusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, I. Sutskever, Dario Amodei",
+    "tags": ["utiliséPresentation"],
+    "abstract": "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general."
+  },
+  {
+    "title": "Vox Populi",
+    "url": "https://www.nature.com/articles/075450a0",
+    "date": "1907-03-01",
+    "authors": "Francis Galton",
+    "tags": ["utiliséPresentation"],
+    "abstract": "IN these democratic days, any investigation into the the trustworthiness and peculiarities of popular judgments is of interest. The material about to be discussed refers to a small matter, but is much to the point."
+  },
+  {
+    "title": "AI-Enhanced Deliberative Democracy and the Future of the Collective Will",
+    "url": "http://arxiv.org/abs/2503.05830",
+    "date": "2025-06-23",
+    "authors": "Manon Revel, Théophile Pénigaud",
+    "tags": ["utiliséPresentation", "lu"],
+    "abstract": "This article unpacks the design choices behind longstanding and newly proposed computational frameworks aimed at finding common grounds across collective preferences and examines their potential future impacts, both technically and normatively. It begins by situating AI-assisted preference elicitation within the historical role of opinion polls, emphasizing that preferences are shaped by the decision-making context and are seldom objectively captured. With that caveat in mind, we explore AI-based democratic innovations as discovery tools for fostering reasonable representations of a collective will, sense-making, and agreement-seeking. At the same time, we caution against dangerously misguided uses, such as enabling binding decisions, fostering gradual disempowerment or post-rationalizing political outcomes."
+  },
+  {
+    "title": "Generative Monoculture in Large Language Models",
+    "url": "https://arxiv.org/pdf/2407.02209",
+    "authors": "Fan Wu, Emily Black, Varun Chandrasekaran",
+    "tags": ["cat:bias"],
+    "abstract": "We introduce generative monoculture, a behavior observed in large language models (LLMs) characterized by a significant narrowing of model output diversity relative to available training data for a given task: for example, generating only positive book reviews for books with a mixed reception. While in some cases, generative monoculture enhances performance (e.g., LLMs more often produce efficient code), the dangers are exacerbated in others (e.g., LLMs refuse to share diverse opinions). As LLMs are increasingly used in high-impact settings such as education and web search, careful maintenance of LLM output diversity is essential to ensure a variety of facts and perspectives are preserved over time. We experimentally demonstrate the prevalence of generative monoculture through analysis of book review and code generation tasks, and find that simple countermeasures such as altering sampling or prompting strategies are insufficient to mitigate the behavior. Moreover, our results suggest that the root causes of generative monoculture are likely embedded within the LLM’s alignment processes, suggesting a need for developing fine-tuning paradigms that preserve or promote diversity."
+  },
+  {
+    "title": "Generative Social Choice",
+    "url": "https://arxiv.org/abs/2309.01291",
+    "date": "2023",
+    "authors": "Sara Fish, Paul Gölz, David C. Parkes, Ariel D. Procaccia, Gili Rusak, Itai Shapira, Manuel Wüthrich",
+    "tags": ["cat:democracy"],
+    "abstract": "The mathematical study of voting, social choice theory, has traditionally only been applicable to choices among a few predetermined alternatives, but not to open-ended decisions such as collectively selecting a textual statement. We introduce generative social choice, a design methodology for open-ended democratic processes that combines the rigor of social choice theory with the capability of large language models to generate text and extrapolate preferences. Our framework divides the design of AI-augmented democratic processes into two components: first, proving that the process satisfies representation guarantees when given access to oracle queries; second, empirically validating that these queries can be approximately implemented using a large language model. We apply this framework to the problem of summarizing free-form opinions into a proportionally representative slate of opinion statements; specifically, we develop a democratic process with representation guarantees and use this process to portray the opinions of participants in a survey about abortion policy. In a trial with 100 representative US residents, we find that 84 out of 100 participants feel \"excellently\" or \"exceptionally\" represented by the slate of five statements we extracted."
+  },
+  {
+    "title": "REFER: Mitigating Bias in Opinion Summarisation via Frequency Framed Prompting",
+    "url": "http://arxiv.org/abs/2509.15723",
+    "date": "2025-09-19",
+    "authors": "Nannan Huang, Haytham M. Fayek, Xiuzhen Zhang",
+    "tags": ["cat:bias"],
+    "abstract": "Individuals express diverse opinions, a fair summary should represent these viewpoints comprehensively. Previous research on fairness in opinion summarisation using large language models (LLMs) relied on hyperparameter tuning or providing ground truth distributional information in prompts. However, these methods face practical limitations: end-users rarely modify default model parameters, and accurate distributional information is often unavailable. Building upon cognitive science research demonstrating that frequency-based representations reduce systematic biases in human statistical reasoning by making reference classes explicit and reducing cognitive load, this study investigates whether frequency framed prompting (REFER) can similarly enhance fairness in LLM opinion summarisation. Through systematic experimentation with different prompting frameworks, we adapted techniques known to improve human reasoning to elicit more effective information processing in language models compared to abstract probabilistic representations. Our results demonstrate that REFER enhances fairness in language models when summarising opinions. This effect is particularly pronounced in larger language models and using stronger reasoning instructions."
+  },
+  {
+    "title": "Can AI mediation improve democratic deliberation?",
+    "url": "https://arxiv.org/abs/2601.05904",
+    "date": "2026",
+    "authors": "Michael Henry Tessler, Georgina Evans, Michiel A. Bakker, Iason Gabriel, Sophie Bridgers, Rishub Jain, Raphael Koster, Verena Rieser, Anca Dragan, Matthew Botvinick, Christopher Summerfield",
+    "tags": ["cat:democracy"],
+    "abstract": "The strength of democracy lies in the free and equal exchange of diverse viewpoints. Living up to this ideal at scale faces inherent tensions: broad participation, meaningful deliberation, and political equality often trade off with one another (Fishkin, 2011). We ask whether and how artificial intelligence (AI) could help navigate this \"trilemma\" by engaging with a recent example of a large language model (LLM)-based system designed to help people with diverse viewpoints find common ground (Tessler, Bakker, et al., 2024). Here, we explore the implications of the introduction of LLMs into deliberation augmentation tools, examining their potential to enhance participation through scalability, improve political equality via fair mediation, and foster meaningful deliberation by, for example, surfacing trustworthy information. We also point to key challenges that remain. Ultimately, a range of empirical, technical, and theoretical advancements are needed to fully realize the promise of AI-mediated deliberation for enhancing citizen engagement and strengthening democratic deliberation."
+  },
+  {
+    "title": "Using LLMs to Enhance Democracy",
+    "url": "https://doi.org/10.1007/s11023-026-09767-y",
+    "date": "2026-02-23",
+    "authors": "Seth Lazar, Lorenzo Manuali",
+    "tags": ["cat:democracy"],
+    "abstract": "LLMs are among the most advanced tools ever devised for understanding and generating natural language. Democratic deliberation and decision-making involve, at several distinct stages, the production and comprehension of language. So it is natural to ask whether our best linguistic tools might prove instrumental to one of our most important linguistic tasks involving language. Researchers and practitioners have recently asked whether LLMs can support democratic deliberation by leveraging abilities to summarise content, to aggregate opinions over summarised content, and to represent voters by predicting their preferences over unseen choices. In this paper, we assess whether using LLMs to perform these and related functions really advances the democratic values behind these experiments. We suggest that the record is mixed. In the presence of background inequality of power and resources, as well as deep moral and political disagreement, we should not use LLMs to automate non-instrumentally valuable components of the democratic process, nor should we be tempted to supplant fair and transparent decision-making procedures that are practically necessary to reconcile competing interests and values. However, while LLMs should be kept well clear of formal democratic decision-making processes, we think they can instead strengthen the informal public sphere—the arena that mediates between democratic governments and the polities that they serve, in which political communities seek information, form civic publics, and hold their leaders to account."
+  },
+  {
+    "title": "Architecting Trust in Artificial Epistemic Agents",
+    "url": "https://www.semanticscholar.org/paper/Architecting-Trust-in-Artificial-Epistemic-Agents-Marchal-Chan/3b29cb1aebb232e94c5659ee4894d0289a94d7ae",
+    "date": "3 March 2026",
+    "authors": "N. S. Marchal, S. Chan, Matija Franklin, Manon Revel, Geoff Keeling, Roberta Fischli, Bilva Chandra, Iason Gabriel",
+    "tags": ["cat:polisci"],
+    "abstract": "Large language models increasingly function as epistemic agents -- entities that can 1) autonomously pursue epistemic goals and 2) actively shape our shared knowledge environment. They curate the information we receive, often supplanting traditional search-based methods, and are frequently used to generate both personal and deeply specialized advice. How they perform these functions, including whether they are reliable and properly calibrated to both individual and collective epistemic norms, is therefore highly consequential for the choices we make. We argue that the potential impact of epistemic AI agents on practices of knowledge creation, curation and synthesis, particularly in the context of complex multi-agent interactions, creates new informational interdependencies that necessitate a fundamental shift in evaluation and governance of AI. While a well-calibrated ecosystem could augment human judgment and collective decision-making, poorly aligned agents risk causing cognitive deskilling and epistemic drift, making the calibration of these models to human norms a high-stakes necessity. To ensure a beneficial human-AI knowledge ecosystem, we propose a framework centered on building and cultivating the trustworthiness of epistemic AI agents; aligning AI these agents with human epistemic goals; and reinforcing the surrounding socio-epistemic infrastructure. In this context, trustworthy AI agents must demonstrate epistemic competence, robust falsifiability, and epistemically virtuous behaviors, supported by technical provenance systems and\"knowledge sanctuaries\"designed to protect human resilience. This normative roadmap provides a path toward ensuring that future AI systems act as reliable partners in a robust and inclusive knowledge ecosystem."
+  }
+]

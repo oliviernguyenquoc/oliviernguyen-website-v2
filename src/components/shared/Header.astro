@@ -1,0 +1,55 @@
+---
+import { url, words } from "@/lib/pages.js";
+interface Props {
+  lang: "fr" | "en";
+  page: string;
+}
+const { lang, page } = Astro.props;
+const w = words[lang];
+const navigation = ["parcours", "research", "teaching", "references"];
+---
+
+<header class="wrap header">
+  <a class="brand" href={url(lang, "home")}>Olivier Nguyen Quoc</a>
+  <nav
+    class="nav"
+    id="primary-nav"
+    aria-label={lang === "fr" ? "Navigation principale" : "Main navigation"}
+  >
+    {
+      navigation.map((item, index) => (
+        <a href={url(lang, item)} aria-current={page === item ? "page" : undefined}>
+          {w.nav[index]}
+        </a>
+      ))
+    }
+  </nav>
+  <div class="utilities">
+    <div class="langs" aria-label={lang === "fr" ? "Langue" : "Language"}>
+      <a
+        lang="fr"
+        href={url("fr", page)}
+        aria-label="Français"
+        aria-current={lang === "fr" ? "true" : undefined}>FR</a
+      ><span>/</span>
+      <a
+        lang="en"
+        href={url("en", page)}
+        aria-label="English"
+        aria-current={lang === "en" ? "true" : undefined}>EN</a
+      >
+    </div>
+    <a class="contact-nav" href="#contact">{w.contact}</a>
+  </div>
+  <button class="menu" aria-label={w.menu} aria-expanded="false" aria-controls="primary-nav">
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"></path></svg
+    >
+  </button>
+</header>

@@ -1,0 +1,45 @@
+---
+interface Experience {
+  period: string;
+  title: string;
+  company: string;
+  bullets?: { highlight: string; rest: string }[];
+}
+interface Props {
+  items: Experience[];
+}
+const { items } = Astro.props;
+---
+
+<div class="cv-timeline">
+  {
+    items.map((item) => (
+      <article class="cv-event">
+        <div class="cv-logo">
+          <img
+            src={`/assets/${item.company.toLowerCase().includes("decathlon") ? "decathlon.png" : "loreal.svg"}`}
+            alt={item.company}
+            loading="lazy"
+          />
+        </div>
+        <div class="min-w-0">
+          <>
+            <span class="meta">{item.period}</span>
+            <h3>{item.title}</h3>
+            <p class="cv-company">{item.company}</p>
+          </>
+          {item.bullets && (
+            <ul>
+              {item.bullets.map((bullet) => (
+                <li>
+                  <strong>{bullet.highlight}</strong>
+                  {bullet.rest}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </article>
+    ))
+  }
+</div>

@@ -1,0 +1,749 @@
+{
+  "experience": {
+    "title": { "en": "Work Experience", "fr": "Expérience professionnelle" },
+    "items": [
+      {
+        "period": { "en": "April 2023 · Now", "fr": "Avril 2023 · Maintenant" },
+        "title": {
+          "en": "Engineering manager - Data engineering",
+          "fr": "Engineering manager - Data engineering"
+        },
+        "company": "DECATHLON (Global Digital)",
+        "logo": "/images/Decathlon_logo.png",
+        "logoAlt": "Decathlon",
+        "bullets": [
+          {
+            "highlight": {
+              "en": "Built & led 3 data engineering teams",
+              "fr": "Construit et dirigé 3 équipes de data engineering"
+            },
+            "rest": {
+              "en": " (3-6 engineers each) across key domains: Finance, HR, Sustainability, Circularity, Product and Enterprise referential data",
+              "fr": " (3-6 ingénieurs chacune) dans des domaines clés : Finance, RH, Durabilité, Circularité, Produit et données de référence entreprise"
+            }
+          },
+          {
+            "highlight": { "en": "Responsible for hiring", "fr": "Responsable du recrutement" },
+            "rest": {
+              "en": ", team structure, and talent development",
+              "fr": " : structure d'équipe et développement des talents"
+            }
+          },
+          {
+            "highlight": {
+              "en": "Introduced and scaled engineering standards",
+              "fr": "Introduit et déployé des standards d'ingénierie"
+            },
+            "rest": {
+              "en": ": code reviews, testing strategy, ADRs, observability, daily run routines, incident response, security practices and data quality monitoring",
+              "fr": " : revues de code, stratégie de tests, ADRs, observabilité, routines quotidiennes, gestion d'incidents, pratiques de sécurité et monitoring de la qualité des données"
+            }
+          },
+          {
+            "highlight": {
+              "en": "Modern data stack migration (2024)",
+              "fr": "Migration vers une Modern Data Stack (2024)"
+            },
+            "rest": {
+              "en": ": Led the transition (+50% pipelines in the new datalake / stack)",
+              "fr": " : A dirigé la transition (+50% de pipelines dans le nouveau datalake / stack)."
+            }
+          },
+          {
+            "highlight": {
+              "en": "Data contract framework (2025)",
+              "fr": "Framework de Data contracts (2025)"
+            },
+            "rest": {
+              "en": ": Designing and implementing a scalable model to improve data quality, ownership, and discoverability across the organization",
+              "fr": " : Conception et mise en œuvre d'un modèle scalable pour améliorer la qualité, la propriété et la découvrabilité des données dans l'organisation"
+            }
+          }
+        ]
+      },
+      {
+        "period": { "en": "2020 · August 2023", "fr": "2020 · Août 2023" },
+        "title": {
+          "en": "Data science manager & Product manager - AI",
+          "fr": "Data science manager & Product manager - IA"
+        },
+        "company": "L'ORÉAL (CDMO Global Digital)",
+        "logo": "/images/LOreal_logo.svg",
+        "logoAlt": "L'Oréal",
+        "bullets": [
+          {
+            "highlight": { "en": "Internal entrepreneurship", "fr": "Entrepreneuriat interne" },
+            "rest": {
+              "en": ": Building an internal cloud-native software to match similar video ads with AI, with a team of 1-3 freelancers",
+              "fr": " : Construction d'un logiciel cloud-native interne pour matcher des publicités vidéo similaires avec l'IA, avec une équipe de 1-3 freelances"
+            }
+          },
+          {
+            "highlight": {
+              "en": "Researched and re-implemented a scientific paper",
+              "fr": "Recherche et ré-implémentation d'un article scientifique"
+            },
+            "rest": {
+              "en": " (deep-learning) to match re-edited video ads (95% mAP)",
+              "fr": " (deep-learning) pour matcher des publicités vidéo ré-éditées (95% mAP)"
+            }
+          },
+          {
+            "highlight": { "en": "Full-stack ownership", "fr": "Propriété full-stack" },
+            "rest": {
+              "en": ": AI model (PyTorch), backend (FastAPI), frontend (VueJS), cloud & MLOps",
+              "fr": " : Modèle IA (PyTorch), backend (FastAPI), frontend (VueJS), cloud & MLOps"
+            }
+          },
+          {
+            "highlight": { "en": "Led product vision", "fr": "Direction de la vision produit" },
+            "rest": {
+              "en": ", marketing, delivery and stakeholder alignment",
+              "fr": ", marketing, livraison et alignement des parties prenantes"
+            }
+          },
+          {
+            "highlight": { "en": "Result", "fr": "Résultat" },
+            "rest": {
+              "en": ": Deployed in all L'Oréal's major brands (over 12)",
+              "fr": " : Déployé dans toutes les marques majeures du groupe (plus de 12)"
+            }
+          }
+        ]
+      },
+      {
+        "period": { "en": "2018 · 2020", "fr": "2018 · 2020" },
+        "title": {
+          "en": "Data Scientist & Digital Transformation",
+          "fr": "Data Scientist & transformation digitale"
+        },
+        "company": "L'ORÉAL",
+        "logo": "/images/LOreal_logo.svg",
+        "logoAlt": "L'Oréal"
+      },
+      {
+        "period": { "en": "Dec 2016 · 2018", "fr": "Déc 2016 · 2018" },
+        "title": { "en": "Data engineering", "fr": "Data engineering" },
+        "company": "L'ORÉAL",
+        "logo": "/images/LOreal_logo.svg",
+        "logoAlt": "L'Oréal"
+      }
+    ]
+  },
+  "education": {
+    "title": { "en": "Education", "fr": "Formation" },
+    "items": [
+      {
+        "period": "2015 · 2016",
+        "degree": {
+          "en": "MSc in Business Analytics & Data Sciences",
+          "fr": "MSc en Business Analytics & Data Sciences"
+        },
+        "institution": "CentraleSupelec / ESSEC",
+        "description": {
+          "en": "Top-tier French engineering and business schools. Chaire ESSEC-Accenture Strategic Business Analytics.",
+          "fr": "Grandes écoles françaises d'ingénieur et de commerce. Chaire ESSEC-Accenture Strategic Business Analytics."
+        },
+        "logo": "/images/ESSEC_Logo.svg",
+        "logoAlt": "ESSEC"
+      },
+      {
+        "period": "2012 · 2015",
+        "degree": { "en": "MSc in Engineering", "fr": "Diplôme d'Ingénieur" },
+        "institution": "Ecole Centrale de Nantes",
+        "description": {
+          "en": "Top-tier French engineering school (Grande École).",
+          "fr": "Grande école d'ingénieur française."
+        },
+        "logo": "/images/centrale_nantes.jpg",
+        "logoAlt": "Centrale Nantes"
+      }
+    ]
+  },
+  "engagement": {
+    "title": { "en": "Ethics & Public engagement", "fr": "Engagement et éthique" },
+    "items": [
+      {
+        "year": "2025",
+        "title": { "en": "Guest Lecturer", "fr": "Intervenant (Guest Lecturer)" },
+        "subtitle": {
+          "en": "AI & Collective Decision-Making",
+          "fr": "IA et prise de décision collective"
+        },
+        "description": {
+          "en": "Lecture: \"From deliberative democracy to corporate strategy: Can GenAI power collective decision-making?\"",
+          "fr": "Cours : \"De la démocratie délibérative à la stratégie d'entreprise : la GenAI peut-elle propulser la prise de décision collective ?\""
+        },
+        "logo": "🎓"
+      },
+      {
+        "year": "2018",
+        "title": {
+          "en": "Data For Good - Ethics charter co-author",
+          "fr": "Data For Good - Co-auteur charte éthique"
+        },
+        "description": {
+          "en": "Co-authored the \"Hippocratic Oath for Data Scientists\". Working group on algorithmic ethics and practitioner responsibility.",
+          "fr": "Co-rédaction du \"Serment d'Hippocrate pour Data Scientist\". Groupe de travail sur l'éthique des algorithmes et la responsabilité des praticiens."
+        },
+        "logo": "/images/dataforgood_logo.jpg",
+        "logoAlt": "Data For Good",
+        "link": {
+          "url": "https://www.lemonde.fr/festival/article/2018/07/05/un-serment-d-hippocrate-pour-les-professionnels-de-l-intelligence-artificielle_5326218_4415198.html",
+          "text": { "en": "Featured in Le Monde ↗", "fr": "Mentionné dans Le Monde ↗" }
+        }
+      }
+    ]
+  },
+  "certifications": {
+    "title": { "en": "Certifications & Events", "fr": "Certifications & Événements" },
+    "items": [
+      {
+        "name": { "en": "Ethics of AI", "fr": "Éthique de l'IA" },
+        "organization": "LSE Online",
+        "date": { "en": "October 2025", "fr": "Octobre 2025" },
+        "logo": "/images/LSE_Logo.svg",
+        "logoAlt": "LSE"
+      },
+      {
+        "name": { "en": "Deep Learning Specialization", "fr": "Spécialisation Deep Learning" },
+        "organization": "Coursera",
+        "date": { "en": "June 2018", "fr": "Juin 2018" },
+        "logo": "/images/coursera.png",
+        "logoAlt": "Coursera"
+      },
+      {
+        "name": { "en": "Conference Attendee", "fr": "Participant à la conférence" },
+        "organization": "NeurIPS 2019",
+        "logo": "/images/neurips.png",
+        "logoAlt": "NeurIPS"
+      }
+    ]
+  },
+  "bio": {
+    "name": "Olivier Nguyen Quoc",
+    "shortBio": {
+      "title": { "en": "Short Bio", "fr": "Biographie courte" },
+      "paragraphs": [
+        {
+          "lead": { "en": "Engineering leader", "fr": "Leader technique" },
+          "rest": {
+            "en": " passionate about building impactful data & AI products.",
+            "fr": " passionné par la construction de produits data & IA à impact."
+          }
+        },
+        {
+          "beforeHighlight": { "en": "With over ", "fr": "Avec plus de " },
+          "highlight": { "en": "8 years of experience", "fr": "9 ans d'expérience" },
+          "between": {
+            "en": " at the intersection of data science, machine learning, and product strategy, I have built and led multiple high-performing engineering teams. I ",
+            "fr": " à l'intersection de la data science, du machine learning et de la stratégie produit, j'ai construit et dirigé plusieurs équipes performantes. J'ai notamment "
+          },
+          "secondHighlight": {
+            "en": "architected and scaled a deep learning platform",
+            "fr": "conçu et déployé une plateforme de deep learning"
+          },
+          "after": {
+            "en": " for video asset reuse adopted by 12 global brands, directly optimizing millions in marketing production costs.",
+            "fr": " pour la réutilisation d'actifs vidéo adoptée par 12 marques, optimisant directement des millions d'euros de coûts de production."
+          }
+        }
+      ],
+      "quote": {
+        "en": "\"My goal is to ship data & AI products that people actually use and teams that are proud to build them\"",
+        "fr": "\"Mon objectif est de livrer des produits data & IA que les gens utilisent vraiment et des équipes fières de les construire\""
+      }
+    },
+    "careerFocus": {
+      "title": { "en": "Career Focus", "fr": "Focus carrière" },
+      "paragraphs": [
+        {
+          "beforeHighlight": { "en": "Currently ", "fr": "Actuellement " },
+          "highlight": {
+            "en": "Engineering manager @ Decathlon",
+            "fr": "Engineering manager @ Decathlon"
+          },
+          "after": { "en": ".", "fr": "." }
+        },
+        {
+          "beforeHighlight": {
+            "en": "I am open to engineering leadership roles focused on ",
+            "fr": "Je suis ouvert à des rôles de leadership technique axés sur "
+          },
+          "highlight": {
+            "en": "building and scaling data & AI teams",
+            "fr": "la construction et la mise à l'échelle d'équipes data & IA"
+          },
+          "after": { "en": " in Paris or abroad.", "fr": " à Paris ou à l'étranger." }
+        }
+      ]
+    }
+  },
+  "research": {
+    "meta": {
+      "title": {
+        "en": "AI, Democracy & Collective Intelligence - Olivier Nguyen Quoc",
+        "fr": "IA, démocratie et intelligence collective - Olivier Nguyen Quoc"
+      },
+      "desc": {
+        "en": "Exploring democratic implications of AI, LLMs and their impact on collective intelligence",
+        "fr": "Explorer les implications démocratiques de l'IA, des LLMs et leur impact sur l'intelligence collective"
+      }
+    },
+    "hero": {
+      "title": {
+        "en": "AI, Democracy & Collective Intelligence",
+        "fr": "IA, démocratie et intelligence collective"
+      },
+      "paragraphs": [
+        {
+          "en": "How can large language models support, rather than undermine, deliberation, participation and collective decision-making?",
+          "fr": "Comment les grands modèles de langage peuvent-ils soutenir, plutôt que miner, la délibération, la participation et la prise de décision collective ?"
+        },
+        {
+          "en": "This page documents my ongoing exploration of how AI is changing decision-making processes in organisations and in democratic life, whether at the local or global scale.",
+          "fr": "Cette page retrace mon exploration en cours de la façon dont l'IA transforme la prise de décision, dans les organisations comme dans la vie démocratique, à l'échelle locale et globale."
+        }
+      ]
+    },
+    "summary": {
+      "title": { "en": "TL;DR", "fr": "TL;DR" },
+      "bullets": [
+        {
+          "en": "A practical framework to understand how LLMs influence deliberation and collective decision-making.",
+          "fr": "Un cadre pratique pour comprendre l'impact des LLMs sur la délibération et la décision collective."
+        },
+        {
+          "en": "Two available formats: academic course (2h) and technical talk (45 min).",
+          "fr": "Deux formats disponibles : cours académique (2h) et conférence technique (45 min)."
+        },
+        {
+          "en": "Open resources: bibliography, notes, and slides.",
+          "fr": "Ressources ouvertes : bibliographie, notes et supports."
+        }
+      ]
+    },
+    "why": {
+      "title": { "en": "Why this project?", "fr": "Pourquoi ce projet ?" },
+      "paragraphs": [
+        {
+          "en": "I work in applied AI and have spent several years building real-world systems. In parallel, I am increasingly concerned by the impact of AI on democratic processes: who speaks, who is heard, how decisions are made, and what role automated systems play in all of this.",
+          "fr": "Je travaille dans l'IA appliquée et j'ai passé plusieurs années à construire des systèmes concrets. En parallèle, je suis de plus en plus préoccupé par l'impact de l'IA sur les processus démocratiques : qui parle, qui est entendu, comment les décisions sont prises, et quel rôle jouent les systèmes automatisés dans tout cela."
+        },
+        {
+          "en": "My goal is simple: understand how we can use new language models (LLMs) to strengthen democratic practices instead of weakening them.",
+          "fr": "Mon objectif est simple : comprendre comment utiliser les nouveaux modèles de langage (LLMs) pour renforcer les pratiques démocratiques plutôt que de les affaiblir."
+        }
+      ],
+      "anglesIntro": {
+        "en": "I approach this topic from three angles:",
+        "fr": "J'aborde ce sujet sous trois angles :"
+      },
+      "angles": [
+        {
+          "label": { "en": "Citizen (40%)", "fr": "Citoyen (40%)" },
+          "desc": {
+            "en": "understanding and contributing to issues that affect us collectively.",
+            "fr": "comprendre et contribuer aux enjeux qui nous concernent collectivement."
+          }
+        },
+        {
+          "label": { "en": "Intellectual (40%)", "fr": "Intellectuel (40%)" },
+          "desc": {
+            "en": "reading, structuring ideas, and connecting disciplines.",
+            "fr": "lire, structurer les idées et connecter les disciplines."
+          }
+        },
+        {
+          "label": { "en": "Professional (20%)", "fr": "Professionnel (20%)" },
+          "desc": {
+            "en": "reflecting on the future of AI practice and applied ethics.",
+            "fr": "réfléchir sur l'avenir de la pratique de l'IA et l'éthique appliquée."
+          }
+        }
+      ]
+    },
+    "resources": {
+      "title": { "en": "Explore my work", "fr": "Explorez mon travail" },
+      "intro": {
+        "en": "This section presents my work on AI's impact on decision-making, including two complementary approaches along with teaching materials, curated references, and research notes.",
+        "fr": "Cette section présente mes travaux sur l'impact de l'IA sur la prise de décision, incluant deux approches complémentaires ainsi que des supports pédagogiques, des références clés et des notes de recherche."
+      },
+      "courses": [
+        {
+          "theme": "blue",
+          "title": { "en": "AI & Democracy", "fr": "IA & démocratie" },
+          "duration": { "en": "Academic course (2h)", "fr": "Cours académique (2h)" },
+          "description": {
+            "en": "A two-hour session exploring how LLMs interact with deliberation, participation, and large-scale decision processes in a democratic context.",
+            "fr": "Une session de deux heures explorant comment les LLMs interagissent avec la délibération, la participation et les processus de décision à grande échelle dans un contexte démocratique."
+          },
+          "cta": { "en": "View detailed course", "fr": "Voir le cours détaillé" },
+          "link": { "en": "/ai-democracy-teaching", "fr": "/fr/democratie-ia-teaching" }
+        },
+        {
+          "theme": "emerald",
+          "title": {
+            "en": "Can LLMs improve collective decision-making?",
+            "fr": "Les LLMs peuvent-ils améliorer la prise de décision collective ?"
+          },
+          "subtitle": { "en": "What research tells us", "fr": "Ce que la recherche nous apprend" },
+          "duration": { "en": "Tech talk (45 min)", "fr": "Conférence technique (45 min)" },
+          "sessionFormat": {
+            "en": "Presentation followed by Q&A",
+            "fr": "Présentation suivie d'une Q&R"
+          },
+          "preview": {
+            "en": "When a group needs to make a decision, we often expect the collective to outperform its individual members. This talk examines when AI strengthens group decisions, when it weakens them, and why integration choices matter most.",
+            "fr": "Quand un groupe doit décider, on attend souvent du collectif qu'il fasse mieux que ses membres pris isolément. Cette conférence examine quand l'IA renforce les décisions de groupe, quand elle les affaiblit, et pourquoi la manière de l'intégrer reste déterminante."
+          },
+          "cta": { "en": "View detailed tech talk", "fr": "Voir la conférence détaillée" },
+          "link": { "en": "/ai-collective-intelligence", "fr": "/fr/intelligence-collective-ia" },
+          "formatTitle": { "en": "Format", "fr": "Format" }
+        }
+      ],
+      "bibliographyCard": {
+        "title": { "en": "References & reading list", "fr": "Références et liste de lecture" },
+        "desc": {
+          "en": "The knowledge base behind this project. Includes sources cited in the lecture and my active reading list on the topic.",
+          "fr": "La base de connaissance de ce projet. Inclut les sources citées dans le cours et ma veille active sur le sujet."
+        },
+        "cta": { "en": "Explore the library →", "fr": "Explorer la bibliothèque →" },
+        "link": { "en": "/bibliography", "fr": "/fr/bibliographie" }
+      },
+      "notesCard": {
+        "title": {
+          "en": "Notes, ideas & open questions",
+          "fr": "Notes, idées & questions ouvertes"
+        },
+        "desc": {
+          "en": "I am particularly interested in questions such as:",
+          "fr": "Je m'intéresse particulièrement à des questions telles que :"
+        },
+        "bullets": [
+          {
+            "en": "When do LLMs help people understand each other better - and when do they distort?",
+            "fr": "Quand les LLMs aident-ils les gens à mieux se comprendre, et quand déforment-ils le propos ?"
+          },
+          {
+            "en": "How can we design deliberative processes that remain legitimate when AI is involved?",
+            "fr": "Comment concevoir des processus délibératifs qui restent légitimes lorsque l'IA est impliquée ?"
+          },
+          {
+            "en": "What does \"democratic alignment\" of models mean in practice, beyond slogans?",
+            "fr": "Que signifie l'alignement démocratique des modèles dans la pratique, au-delà des slogans ?"
+          }
+        ],
+        "footer": {
+          "en": "As this project grows, I will publish short notes and reflections here.",
+          "fr": "À mesure que ce projet grandit, je publierai ici de courtes notes et réflexions."
+        }
+      }
+    },
+    "approach": {
+      "title": { "en": "My approach", "fr": "Mon approche" },
+      "steps": [
+        {
+          "title": {
+            "en": "1. Read and map the field",
+            "fr": "1. Lire et cartographier le domaine"
+          },
+          "text": {
+            "en": "I conduct an exploratory but in-depth review of recent work on AI-mediated deliberation, collective intelligence, and democratic innovation, including systems like Polis, experiments in AI-mediated deliberation, and the intersection of computer science and political theory.",
+            "fr": "Je mène une revue exploratoire mais approfondie des travaux récents sur la délibération médiatisée par l'IA, l'intelligence collective et l'innovation démocratique, incluant des systèmes comme Polis, des expériences de délibération augmentée, et la littérature à l'intersection de l'informatique et de la théorie politique."
+          }
+        },
+        {
+          "title": { "en": "2. Prototype and experiment", "fr": "2. Prototyper et expérimenter" },
+          "text": {
+            "en": "Theory is not enough. I apply my engineering background to build prototypes and proofs of concept. Testing how LLMs interact with real political arguments allows me to confront academic promises with technical reality such as latency, hallucinations, and bias.",
+            "fr": "La théorie ne suffit pas. J'applique mon bagage d'ingénieur pour construire des prototypes et des preuves de concept. Tester l'interaction des LLMs avec de vrais arguments politiques me permet de confronter les promesses académiques à la réalité technique, comme la latence, les hallucinations ou les biais."
+          }
+        },
+        {
+          "title": { "en": "3. Teach and share", "fr": "3. Enseigner et partager" },
+          "text": {
+            "en": "I synthesized this research into a comprehensive module on AI & collective intelligence. It bridges technical constraints and democratic theory to explore concrete applications for organizations. This website gradually becomes the place where I publish notes, slides, and document my ongoing thinking.",
+            "fr": "J'ai synthétisé ces recherches dans un module complet sur l'IA et l'intelligence collective. Il fait le pont entre les contraintes techniques et la théorie démocratique pour explorer des applications concrètes dans les organisations. Ce site devient progressivement le lieu où je publie mes notes, mes supports de cours et documente ma réflexion continue."
+          }
+        },
+        {
+          "title": { "en": "4. Connect with the field", "fr": "4. Connecter avec le terrain" },
+          "text": {
+            "en": "Democracy is a collective effort. I actively engage with researchers, civic tech builders, and institutions to ground these ideas in practice and avoid the trap of techno-solutionism.",
+            "fr": "La démocratie est un effort collectif. J'échange activement avec des chercheurs, des bâtisseurs de la Civic Tech et des institutions pour ancrer ces idées dans la pratique et éviter le piège du techno-solutionnisme."
+          }
+        }
+      ]
+    },
+    "share": {
+      "title": { "en": "Why share this publicly?", "fr": "Pourquoi partager publiquement ?" },
+      "paragraphs": [
+        {
+          "en": "The democratic implications of AI should not remain confined to research labs, corporate roadmaps, or policy reports. They deserve open, accessible and informed discussion.",
+          "fr": "Les implications démocratiques de l'IA ne doivent pas rester confinées aux laboratoires de recherche, aux roadmaps d'entreprise ou aux rapports politiques. Elles méritent une discussion ouverte, accessible et informée."
+        },
+        {
+          "en": "This website is my way of contributing: through pedagogy, transparency, and a willingness to build understanding with others, not alone.",
+          "fr": "Ce site est ma façon de contribuer : par la pédagogie, la transparence et une volonté de construire la compréhension avec les autres, et non seul."
+        }
+      ],
+      "final": {
+        "en": "It is a small stone in a much larger democratic conversation.",
+        "fr": "C'est une petite pierre dans une conversation démocratique bien plus vaste."
+      }
+    },
+    "sidebar": {
+      "summary": {
+        "title": { "en": "In short", "fr": "En bref" },
+        "paragraphs": [
+          {
+            "en": "I am an AI practitioner exploring the democratic implications of LLMs.",
+            "fr": "Je suis un praticien de l'IA explorant les implications démocratiques des LLMs."
+          },
+          {
+            "en": "I read, map and synthesise research, then turn it into teaching material and public-facing resources.",
+            "fr": "Je lis, cartographie et synthétise la recherche, puis la transforme en matériel pédagogique et en ressources publiques."
+          },
+          {
+            "en": "This page brings together my professional practice, my civic concerns, and my interest in pedagogy.",
+            "fr": "Cette page rassemble ma pratique professionnelle, mes préoccupations civiques et mon intérêt pour la pédagogie."
+          }
+        ]
+      },
+      "contact": {
+        "title": { "en": "Open to conversations", "fr": "Ouvert aux échanges" },
+        "intro": {
+          "en": "If you work on similar topics in research, public institutions, civil society or industry, I would be happy to connect.",
+          "fr": "Si vous travaillez sur des sujets similaires en recherche, institutions, société civile ou industrie, je serais heureux d'échanger."
+        },
+        "bullets": [
+          { "en": "Talks or guest lectures", "fr": "Conférences ou interventions" },
+          { "en": "Workshops on AI & decision-making", "fr": "Ateliers sur l'IA & la décision" },
+          { "en": "Collaborations or joint projects", "fr": "Collaborations ou projets communs" },
+          {
+            "en": "Informal exchanges about methods & tools",
+            "fr": "Échanges informels sur les méthodes & outils"
+          }
+        ],
+        "cta": { "en": "Contact me →", "fr": "Me contacter →" }
+      }
+    }
+  },
+  "course": {
+    "meta": {
+      "title": {
+        "en": "Course: Designing AI-augmented collective decision-making — Olivier Nguyen Quoc",
+        "fr": "Cours : Concevoir la décision collective augmentée par l'IA — Olivier Nguyen Quoc"
+      },
+      "desc": {
+        "en": "Academic course (2h) on how LLMs can strengthen or degrade democratic deliberation — and how rigorous design makes the difference.",
+        "fr": "Cours académique (2h) sur la manière dont les LLMs peuvent renforcer ou dégrader la délibération démocratique — et comment un design rigoureux fait la différence."
+      }
+    },
+    "header": {
+      "title": {
+        "en": "Designing AI-augmented collective decision-making",
+        "fr": "Concevoir la décision collective augmentée par l'IA"
+      },
+      "subtitle": {
+        "en": "A teaching module for master's students at the intersection of AI research, deliberative theory, and process design.",
+        "fr": "Un module d'enseignement pour étudiants en master, à l'intersection de la recherche en IA, de la théorie délibérative et du design de processus."
+      },
+      "tags": [
+        { "en": "2 Hours", "fr": "2 heures" },
+        { "en": "Master Level", "fr": "Niveau Master" },
+        { "en": "Tech & Society", "fr": "Tech & Société" }
+      ]
+    },
+    "pitch": [
+      {
+        "en": "Most programs that address AI and society stop at the diagnosis: models are biased, platforms are polarizing, democracy is under pressure. This module goes further. It asks how collective decision-making processes can be deliberately designed to make good use of AI, rather than be distorted by a naive deployment of it.",
+        "fr": "La plupart des programmes qui traitent d'IA et de société s'arrêtent au diagnostic : les modèles sont biaisés, les plateformes polarisent, la démocratie est sous pression. Ce module va plus loin. Il demande comment les processus de décision collective peuvent être délibérément conçus pour tirer parti de l'IA, plutôt que d'être distordus par un usage naïf."
+      },
+      {
+        "en": "Drawing on recent work in AI research, deliberative theory, and civic technology, the module gives students the conceptual tools to analyze, critique, and design socio-technical systems at the intersection of artificial intelligence and democratic participation.",
+        "fr": "S'appuyant sur des travaux récents en recherche en IA, théorie délibérative et civic tech, le module donne aux étudiants les outils conceptuels pour analyser, critiquer et concevoir des systèmes socio-techniques à l'intersection de l'intelligence artificielle et de la participation démocratique."
+      }
+    ],
+    "crossLink": {
+      "intro": {
+        "en": "Looking for the tech talk version?",
+        "fr": "Vous cherchez la version conférence technique ?"
+      },
+      "cta": {
+        "en": "View tech talk: Can LLMs improve collective decision-making?",
+        "fr": "Voir la conférence : Les LLMs peuvent-ils améliorer la prise de décision collective ?"
+      },
+      "href": { "en": "/ai-collective-intelligence", "fr": "/fr/intelligence-collective-ia" }
+    },
+    "syllabus": {
+      "title": { "en": "Topics covered", "fr": "Thèmes abordés" },
+      "modules": [
+        { "en": "LLM architecture and limitations", "fr": "Architecture et limites des LLMs" },
+        {
+          "en": "Democratic deliberation and collective intelligence",
+          "fr": "Délibération démocratique et intelligence collective"
+        },
+        {
+          "en": "Algorithmic bias and opinion aggregation",
+          "fr": "Biais algorithmiques et agrégation d'opinions"
+        },
+        {
+          "en": "Civic technology and digital democracy",
+          "fr": "Civic tech et démocratie numérique"
+        },
+        {
+          "en": "Collective decision-making process design",
+          "fr": "Conception de processus de décision collective"
+        },
+        {
+          "en": "Democratic values and algorithmic legitimacy",
+          "fr": "Valeurs démocratiques et légitimité algorithmique"
+        }
+      ]
+    },
+    "learningOutcomes": {
+      "title": {
+        "en": "What your students will take away",
+        "fr": "Ce que vos étudiants en retirent"
+      },
+      "items": [
+        {
+          "en": "A clear-eyed understanding of how LLMs actually affect democratic deliberation, beyond the hype and the fear.",
+          "fr": "Une compréhension concrète de la manière dont les LLMs affectent réellement la délibération démocratique, au-delà des discours enthousiastes ou alarmistes."
+        },
+        {
+          "en": "The ability to distinguish naïve AI deployments from genuinely augmentative ones, and to articulate why that distinction matters.",
+          "fr": "La capacité à distinguer les usages naïfs de l'IA des usages réellement augmentatifs, et à articuler pourquoi cette distinction compte."
+        },
+        {
+          "en": "A conceptual framework they can apply to design or critically evaluate AI-assisted collective decision-making processes.",
+          "fr": "Un cadre conceptuel applicable à la conception ou à l'évaluation critique de dispositifs de décision collective assistés par l'IA."
+        }
+      ]
+    },
+    "formatTitle": { "en": "Format", "fr": "Format" },
+    "format": {
+      "en": "2 hours. Suitable for master's programs in public policy, digital humanities, political science, engineering, or management with a tech & society component. Can be adapted as a seminar, workshop, or lecture depending on the pedagogical context.",
+      "fr": "2 heures. Adapté aux programmes de master en politiques publiques, humanités numériques, sciences politiques, ingénierie ou management avec une composante tech & société. Peut être adapté en séminaire, atelier ou cours magistral selon le contexte pédagogique."
+    },
+    "speaker": {
+      "title": { "en": "About the speaker", "fr": "L'intervenant" },
+      "text": {
+        "en": "Olivier Nguyen Quoc is an engineering manager with 9 years of experience building data and AI products. He developed this module from a sustained engagement with recent research at the intersection of AI, deliberative theory, and civic technology. His approach is that of a practitioner: technically grounded, intellectually rigorous, and attentive to the social consequences of the systems he builds.",
+        "fr": "Olivier Nguyen Quoc est engineering manager avec 9 ans d'expérience dans la construction de produits data et IA. Il a développé ce module à partir d'un engagement soutenu avec la recherche récente à l'intersection de l'IA, de la théorie délibérative et de la civic tech. Son approche est celle d'un praticien : ancré dans la réalité technique, rigoureux intellectuellement, attentif aux conséquences sociales des systèmes qu'il construit."
+      },
+      "cta": { "en": "Full profile", "fr": "Profil complet" },
+      "href": { "en": "/cv", "fr": "/fr/cv" }
+    },
+    "contact": {
+      "title": { "en": "Interested in this module?", "fr": "Intéressé par ce module ?" },
+      "text": {
+        "en": "If you're building a program around AI, democracy, or digital transformation and are looking for a rigorous, interdisciplinary teaching module, feel free to get in touch.",
+        "fr": "Si vous construisez un programme autour de l'IA, de la démocratie ou de la transformation numérique et cherchez un module d'enseignement rigoureux et interdisciplinaire, n'hésitez pas à me contacter."
+      },
+      "cta": { "en": "Get in touch", "fr": "Me contacter" },
+      "href": "mailto:olivier.nguyenquoc@gmail.com"
+    },
+    "slides": {
+      "title": { "en": "Presentation Deck", "fr": "Support de présentation" },
+      "text": {
+        "en": "Slides are being finalized and will be published soon.",
+        "fr": "Les slides sont en cours de finalisation et seront publiés prochainement."
+      },
+      "cta": { "en": "Coming soon", "fr": "Bientôt disponible" }
+    },
+    "references": {
+      "title": { "en": "Research bibliography", "fr": "Bibliographie scientifique" },
+      "cta": { "en": "View bibliography", "fr": "Voir la bibliographie" },
+      "link": { "en": "/bibliography", "fr": "/fr/bibliographie" }
+    }
+  },
+  "talk": {
+    "meta": {
+      "title": {
+        "en": "Can LLMs improve collective decision-making? - Olivier Nguyen Quoc",
+        "fr": "Les LLMs peuvent-ils améliorer la prise de décision collective ? - Olivier Nguyen Quoc"
+      },
+      "desc": {
+        "en": "Tech talk on how AI can strengthen or weaken collective decision-making depending on how it is integrated.",
+        "fr": "Conférence technique sur les cas où l'IA renforce ou affaiblit la prise de décision collective selon la manière dont elle est intégrée."
+      }
+    },
+    "title": {
+      "en": "Can LLMs improve collective decision-making?",
+      "fr": "Les LLMs peuvent-ils améliorer la prise de décision collective ?"
+    },
+    "subtitle": { "en": "What research tells us", "fr": "Ce que la recherche nous apprend" },
+    "tags": [
+      { "en": "Tech Talk", "fr": "Conférence technique" },
+      { "en": "Tech talk (45 min)", "fr": "Conférence technique (45 min)" }
+    ],
+    "abstractTitle": { "en": "Abstract", "fr": "Résumé" },
+    "description": [
+      {
+        "en": "When a group needs to make a decision in a team, workshop, or organization, we often expect the collective to perform better than its individual members. However, the arrival of language models (LLMs) in these contexts raises a simple question: does AI truly improve our decisions, or can it sometimes degrade them?",
+        "fr": "Lorsqu'un groupe doit prendre une décision dans une équipe, un atelier ou une organisation, on s'attend souvent à ce que le collectif fasse mieux que chacun de ses membres. L'arrivée des modèles de langage (LLMs) dans ces contextes soulève pourtant une question simple : l'IA améliore-t-elle réellement nos décisions, ou peut-elle parfois les dégrader ?"
+      },
+      {
+        "en": "Based on a simple and reproducible collective intelligence experiment, this conference demonstrates how naive use of AI can lead to seemingly convincing but less reliable decisions in practice.",
+        "fr": "À partir d'une expérience d'intelligence collective simple et reproductible, cette conférence montre comment l'usage naïf de l'IA peut conduire à des décisions très convaincantes en apparence, mais moins fiables en pratique."
+      },
+      {
+        "en": "Drawing from recent research on collective intelligence and AI-assisted deliberation, we analyze cases where AI weakens or strengthens collective decision-making, and why these effects depend primarily on how it is integrated.",
+        "fr": "En s'appuyant sur les travaux récents de recherche sur l'intelligence collective et la délibération assistée par IA, nous analysons dans quels cas l'IA affaiblit ou renforce une décision collective, et pourquoi ces effets dépendent avant tout de la manière dont elle est intégrée."
+      },
+      {
+        "en": "The conference concludes with a framework for thinking about AI as a facilitation tool rather than an authority, helping teams design more robust and transparent collective systems.",
+        "fr": "La conférence propose enfin une grille de lecture pour penser l'IA comme un outil de facilitation plutôt que comme une autorité, et aider les équipes à concevoir des dispositifs collectifs plus robustes et plus transparents."
+      }
+    ],
+    "formatTitle": { "en": "Format", "fr": "Format" },
+    "sessionFormat": {
+      "en": "Presentation followed by Q&A",
+      "fr": "Présentation suivie d'une Q&R"
+    },
+    "duration": { "en": "Tech talk (45 min)", "fr": "Conférence technique (45 min)" },
+    "targetAudienceTitle": { "en": "Target Audience", "fr": "Public cible" },
+    "targetAudience": {
+      "en": "Data teams, decision-makers, tech enthusiasts. No specific technical prerequisites required.",
+      "fr": "Équipes data, décideurs, passionnés de technologie. Aucun pré-requis technique spécifique."
+    },
+    "prerequisitesTitle": { "en": "Prerequisites", "fr": "Prérequis" },
+    "prerequisites": {
+      "en": "No specific technical prerequisites",
+      "fr": "Aucun pré-requis technique spécifique"
+    },
+    "previouslyPresented": {
+      "title": { "en": "Previously presented", "fr": "Présenté précédemment" },
+      "events": [
+        {
+          "name": "Decathlon: Facilitators community, Global Data team",
+          "date": { "en": "February 2026", "fr": "Février 2026" }
+        },
+        {
+          "name": "Theodo: Internal tech talk",
+          "date": { "en": "February 2026", "fr": "Février 2026" }
+        },
+        { "name": "Data Days Lille 2026", "date": { "en": "March 2026", "fr": "Mars 2026" } }
+      ]
+    },
+    "resources": {
+      "title": { "en": "Resources", "fr": "Ressources" },
+      "slidesCta": { "en": "View slides", "fr": "Voir les slides" },
+      "bibliographyCta": { "en": "Research bibliography", "fr": "Bibliographie scientifique" },
+      "bibliographyLink": { "en": "/bibliography", "fr": "/fr/bibliographie" }
+    },
+    "footerLink": {
+      "cta": {
+        "en": "Back to AI, Democracy & Collective Intelligence",
+        "fr": "Retour à IA, démocratie et intelligence collective"
+      },
+      "href": {
+        "en": "/ai-democracy-and-collective-intelligence",
+        "fr": "/fr/democratie-ia-et-intelligence-collective"
+      }
+    }
+  }
+}

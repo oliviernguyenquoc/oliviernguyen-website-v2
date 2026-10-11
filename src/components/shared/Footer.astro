@@ -1,0 +1,24 @@
+---
+import { words, url } from "@/lib/pages.js";
+interface Props {
+  lang: "fr" | "en";
+}
+const { lang } = Astro.props;
+const w = words[lang];
+---
+
+<section class="contact-band" id="contact">
+  <div class="wrap">
+    <div><h2>{w.mail}</h2><p>{w.mailText}</p></div><a href="mailto:olivier.nguyenquoc@gmail.com"
+      >olivier.nguyenquoc@gmail.com</a
+    >
+  </div>
+</section>
+<footer class="wrap footer">
+  <a class="brand" href={url(lang, "home")}>Olivier Nguyen Quoc</a>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/oliviernguyenquoc">LinkedIn</a><a
+      href="https://github.com/oliviernguyenquoc">GitHub</a
+    ><span>Paris, France</span>
+  </div>
+</footer>

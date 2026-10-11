@@ -1,0 +1,44 @@
+---
+import Arrow from "@/components/shared/Arrow.astro";
+import TextLink from "@/components/shared/TextLink.astro";
+import { url } from "@/lib/pages.js";
+interface Props {
+  lang: "fr" | "en";
+}
+const { lang } = Astro.props;
+const fr = lang === "fr";
+---
+
+<section class="hero-v2">
+  <div class="hero-v2-copy">
+    <h1>
+      {fr ? "Construire des produits" : "Building data & AI"}<br />{fr ? "data & IA" : "products"}
+    </h1>
+    <p class="hero-v2-purpose">
+      {fr ? "au service des personnes et de la société." : "in service of people and society."}
+    </p>
+    <p class="hero-v2-role">Engineering Manager · Software, AI & Data</p>
+    <div class="actions">
+      <a class="button" href={url(lang, "parcours")}
+        >{fr ? "Mon parcours" : "My background"}<Arrow /></a
+      >
+      <TextLink href={url(lang, "research")}>{fr ? "IA & démocratie" : "AI & democracy"}</TextLink>
+    </div>
+  </div>
+  <figure class="hero-v2-photo">
+    <img
+      src="/assets/olivier-cutout.png"
+      width="1024"
+      height="1536"
+      alt="Olivier Nguyen Quoc"
+      fetchpriority="high"
+    />
+  </figure>
+</section>
+<div class="hero-v2-end">
+  <a
+    href="#perspectives"
+    aria-label={fr ? "Découvrir les trois perspectives" : "Explore the three perspectives"}
+    ><Arrow /></a
+  >
+</div>
